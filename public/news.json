@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://indianexpress.com/?post_type=article&p=10557944",
+      "title": "Iran-Israel Conflict: Flight operations suspended at Dubai airports, netizens report chaos",
+      "description": "",
+      "url": "https://indianexpress.com/article/world/iran-israel-conflict-flight-operations-suspended-at-dubai-airports-netizens-report-chaos-10557944/",
+      "source": "Indian Express",
+      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
+      "publishedAt": "2026-02-28T15:13:08.000Z"
+    },
+    {
+      "id": "article-70687211",
+      "title": "Israel and U.S. launch strikes on Iran, targeting its leadership",
+      "description": "The apparent strike happened near the offices of Supreme Leader Ayatollah Ali Khamenei",
+      "url": "https://www.thehindu.com/news/international/israel-attack-on-iran-february-28-2026/article70687211.ece",
+      "source": "The Hindu",
+      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
+      "publishedAt": "2026-02-28T15:13:05.000Z"
+    },
+    {
       "id": "https://www.theguardian.com/world/live/2026/feb/28/israel-attacks-iran-as-blasts-heard-in-tehran-live-updates",
       "title": "US and Israel launch major attack on Iran as Tehran retaliates across the Middle East – live",
       "description": "Iran targets US military bases and Israel as Donald Trump says ‘major combat operation’ under way Full report: US and Israel attack Iran Analysis: Trump’s attack has no mandate Wha...",
@@ -8,6 +26,24 @@
       "source": "The Guardian",
       "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
       "publishedAt": "2026-02-28T15:07:34.000Z"
+    },
+    {
+      "id": "article-70687247",
+      "title": "Iran-Israel conflict LIVE: Iran's supreme leader Khamenei to give speech shortly, says broadcaster",
+      "description": "\"The aim of the operation is to put an end to the threat from the Ayatollah regime in Iran,\" says Israeli PM Netanyahu; Iran has targeted U.S. military bases in Kuwait, Qatar, the...",
+      "url": "https://www.thehindu.com/news/international/iran-israel-usa-conflict-strikes-attack-west-asia-us-trump-live-updates-february-28-2026/article70687247.ece",
+      "source": "The Hindu",
+      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
+      "publishedAt": "2026-02-28T15:07:30.000Z"
+    },
+    {
+      "id": "https://www.hindustantimes.com/world-news/missiles-interceptions-air-closure-mark-day-of-fear-for-uae-residents-as-us-israel-strikes-ignite-middle-east-conflict-101772291050371.html",
+      "title": "Missiles, interceptions, air closure on day of fear for UAE residents as US-Israel strikes on Iran ignite wider conflict",
+      "description": "As Tehran launched simultaneous missiles across the United Arab Emirates (UAE), Bahrain, and Qatar, civilians took shelter and mostly remained indoors.",
+      "url": "https://www.hindustantimes.com/world-news/missiles-interceptions-air-closure-mark-day-of-fear-for-uae-residents-as-us-israel-strikes-ignite-middle-east-conflict-101772291050371.html",
+      "source": "Hindustan Times",
+      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
+      "publishedAt": "2026-02-28T15:07:19.000Z"
     },
     {
       "id": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-attacks-what-to-know.html",
@@ -154,6 +190,15 @@
       "publishedAt": "2026-02-28T14:13:27.000Z"
     },
     {
+      "id": "article-70687439",
+      "title": "India issues advisory to nationals in Israel and Iran; advises immediate registration with embassy in Tel Aviv",
+      "description": "More than 40,000 Indian nationals currently live and work in Israel; Embassy in Abu Dhabi also urged all Indian nationals “to avoid unnecessary travel”",
+      "url": "https://www.thehindu.com/news/national/exercise-utmost-caution-india-issues-advisory-as-israel-us-bombs-iran/article70687439.ece",
+      "source": "The Hindu",
+      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
+      "publishedAt": "2026-02-28T14:05:08.000Z"
+    },
+    {
       "id": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-war-mood.html",
       "title": "As U.S. Bombs Tehran, Some Iranians Feel Abandoned by Their Leaders",
       "description": "The government provided little advice in the days before the attacks or as the bombs fell, more than a dozen Iranians said in interviews.",
@@ -161,6 +206,15 @@
       "source": "The New York Times",
       "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
       "publishedAt": "2026-02-28T14:05:03.000Z"
+    },
+    {
+      "id": "article-70687818",
+      "title": "Iran fires missiles at Gulf Arab states, one killed in Abu Dhabi",
+      "description": "State media in the United Arab Emirates said one person had been killed in Abu Dhabi, but ‌gave no details",
+      "url": "https://www.thehindu.com/news/international/iran-attack-gulf-states-bahrain-abu-dhabi-kuwait-jordan-qatar-february-28-2026/article70687818.ece",
+      "source": "The Hindu",
+      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
+      "publishedAt": "2026-02-28T14:03:14.000Z"
     },
     {
       "id": "https://www.hindustantimes.com/world-news/us-news/ayatollah-ali-khamenei-family-know-about-iranian-supreme-leaders-wife-children-and-grandkids-101772281298368.html",
@@ -217,15 +271,6 @@
       "publishedAt": "2026-02-28T13:44:22.000Z"
     },
     {
-      "id": "article-70687818",
-      "title": "Iran fires missiles at Gulf Arab states, one killed in Abu Dhabi",
-      "description": "State media in the United Arab Emirates said one person had been killed in Abu Dhabi, but ‌gave no details",
-      "url": "https://www.thehindu.com/news/international/iran-attack-gulf-states-bahrain-abu-dhabi-kuwait-jordan-qatar-february-28-2026/article70687818.ece",
-      "source": "The Hindu",
-      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-02-28T13:41:58.000Z"
-    },
-    {
       "id": "https://www.bbc.com/news/articles/cx2dyz6p3weo#0",
       "title": "What we know about the joint US-Israel attack on Iran",
       "description": "Iran has retaliated with a missile barrage towards Israel, while explosions have been heard in Qatar, Bahrain, Saudi Arabia, and the UAE.",
@@ -260,15 +305,6 @@
       "source": "NDTV",
       "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
       "publishedAt": "2026-02-28T13:32:28.000Z"
-    },
-    {
-      "id": "article-70687247",
-      "title": "Iran-Israel conflict LIVE: Iran says its armed forces are 'prepared for this day'; vows to 'teach aggressors the lesson they deserve'",
-      "description": "\"The aim of the operation is to put an end to the threat from the Ayatollah regime in Iran,\" says Israeli PM Netanyahu; Iran has targeted U.S. military bases in Kuwait, Qatar, the...",
-      "url": "https://www.thehindu.com/news/international/iran-israel-usa-conflict-strikes-attack-west-asia-us-trump-live-updates-february-28-2026/article70687247.ece",
-      "source": "The Hindu",
-      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-02-28T13:30:47.000Z"
     },
     {
       "id": "https://www.hindustantimes.com/trending/explosions-just-10-km-away-from-home-indian-man-in-dubai-shares-chilling-account-amid-iran-retaliation-101772284199017.html",
@@ -341,45 +377,9 @@
       "source": "Indian Express",
       "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
       "publishedAt": "2026-02-28T13:14:01.000Z"
-    },
-    {
-      "id": "https://indianexpress.com/?post_type=article&p=10557725",
-      "title": "Israel releases first visuals of airstrikes in western Iran under ‘Operation Roaring Lion’: Watch",
-      "description": "",
-      "url": "https://indianexpress.com/article/world/israel-visuals-airstrikes-iran-us-watch-10557725/",
-      "source": "Indian Express",
-      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
-      "publishedAt": "2026-02-28T13:08:56.000Z"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772281455",
-      "title": "Israel strikes two schools in Iran, killing more than 50 people",
-      "description": "State media says Israeli attack on girls' school in the city of Minab in the south of the country kills dozens.",
-      "url": "https://www.aljazeera.com/news/2026/2/28/israel-strikes-two-schools-in-iran-killing-more-than-50-people?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-02-28T13:06:29.000Z"
-    },
-    {
-      "id": "https://www.hindustantimes.com/trending/black-smoke-multiple-emergency-alerts-indian-mom-s-firsthand-account-of-bahrain-s-sudden-emergency-101772283349743.html",
-      "title": "'Black smoke, multiple emergency alerts’: Indian mom’s firsthand account of Bahrain’s sudden emergency",
-      "description": "After the joint Israel-US strikes, US bases across the UAE, Bahrain, and Qatar were hit by Iran.",
-      "url": "https://www.hindustantimes.com/trending/black-smoke-multiple-emergency-alerts-indian-mom-s-firsthand-account-of-bahrain-s-sudden-emergency-101772283349743.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-02-28T13:05:12.000Z"
-    },
-    {
-      "id": "https://www.theguardian.com/society/2026/feb/28/anti-vaccine-rhetoric-global-measles-crisis",
-      "title": "‘Viruses don’t know borders’: US anti-vaccine rhetoric could impact global measles crisis",
-      "description": "Experts say global measles vaccination rates are falling as Trump officials signal a deprioritization of the virus The US government has amplified anti-vaccine rhetoric and signale...",
-      "url": "https://www.theguardian.com/society/2026/feb/28/anti-vaccine-rhetoric-global-measles-crisis",
-      "source": "The Guardian",
-      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
-      "publishedAt": "2026-02-28T13:00:11.000Z"
     }
   ],
-  "updatedAt": "2026-02-28T15:15:45.506Z",
+  "updatedAt": "2026-02-28T15:18:23.566Z",
   "refreshIntervalMs": 300000,
   "filters": {
     "language": "English",

@@ -4,6 +4,9 @@ const isProd = process.env.NODE_ENV === "production";
 const basePath = isProd ? "/middle-east-tracker" : "";
 
 const nextConfig: NextConfig = {
+  turbopack: {
+    root: __dirname,
+  },
   output: "export",
   basePath,
   assetPrefix: basePath,
