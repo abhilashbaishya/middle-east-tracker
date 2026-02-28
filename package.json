@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/generate-news-json.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/generate-news-json.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "data:refresh": "node scripts/generate-news-json.mjs"
   },
   "dependencies": {
     "next": "16.1.6",

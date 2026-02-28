@@ -1,39 +1,39 @@
 # Middle East Tracker
 
-A light-themed live news tracker for Middle East conflict coverage focused on `Israel`, `Iran`, and the `USA`, built with Next.js, Tailwind, and Vercel-friendly defaults.
+Static Next.js news tracker focused on Israel, Iran, and U.S. developments with major English outlets and Indian sources.
 
 ## Features
 
-- Free RSS-only aggregation (no paid APIs)
-- Major English outlets only:
-  - BBC
-  - The New York Times
-  - The Guardian
-  - Al Jazeera
+- Free RSS aggregation (no paid APIs)
+- Sources: BBC, NYT, Guardian, Al Jazeera, The Hindu, Indian Express, NDTV, TOI, Hindustan Times
 - Keyword filter: Israel, Iran, USA
-- Card-based iOS-style UI with outlet logos and "Read more" links
-- Auto-refresh every 5 minutes
-- Manual refresh button
+- Refreshable list UI with dark theme typography
+- GitHub Pages deployment via GitHub Actions
+- Automatic rebuild every 5 minutes (best-effort GitHub schedule)
 
-## Run locally
+## Local dev
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`.
+The feed snapshot is generated automatically to `public/news.json` before dev/build.
 
-## Build
+## Build static export
 
 ```bash
 npm run build
-npm start
 ```
 
-## API
+This outputs a static site to `out/`.
 
-`GET /api/news`
+## GitHub Pages
 
-Query params:
-- `refresh=true` to bypass cache and fetch latest feeds immediately
+Workflow: `.github/workflows/deploy-pages.yml`
+
+- Deploys on push to `main`
+- Deploys on manual run
+- Rebuilds every 5 minutes on schedule
+
+Project slug/base path is configured as `/middle-east-tracker`.

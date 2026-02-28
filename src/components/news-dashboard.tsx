@@ -8,6 +8,8 @@ type DashboardProps = {
   initialPayload: NewsResponse;
 };
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 function formatUpdatedLabel(isoString: string): string {
   const date = new Date(isoString);
   if (Number.isNaN(date.getTime())) {
@@ -105,15 +107,12 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
 
     try {
       const currentIds = new Set(payload.articles.map((article) => article.id));
-      const params = new URLSearchParams();
-
-      if (forceRefresh) {
-        params.set("refresh", "true");
-        params.set("_ts", String(Date.now()));
-      }
+      const params = new URLSearchParams({ _ts: String(Date.now()) });
 
       const query = params.toString();
-      const response = await fetch(`/api/news${query ? `?${query}` : ""}`, { cache: "no-store" });
+      const response = await fetch(`${BASE_PATH}/news.json${query ? `?${query}` : ""}`, {
+        cache: "no-store",
+      });
 
       if (!response.ok) {
         throw new Error(`Request failed: ${response.status}`);
