@@ -98,17 +98,11 @@ function NewsRow({ article }: { article: NewsArticle }) {
 
 export function NewsDashboard({ initialPayload }: DashboardProps) {
   const [payload, setPayload] = useState(initialPayload);
-  const [isRefreshing, setIsRefreshing] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
-  const [refreshMessage, setRefreshMessage] = useState<string | null>(null);
 
-  const refreshNews = useCallback(async (forceRefresh: boolean) => {
-    setIsRefreshing(true);
-
+  const refreshNews = useCallback(async () => {
     try {
-      const currentIds = new Set(payload.articles.map((article) => article.id));
       const params = new URLSearchParams({ _ts: String(Date.now()) });
-
       const query = params.toString();
       const response = await fetch(`${BASE_PATH}/news.json${query ? `?${query}` : ""}`, {
         cache: "no-store",
@@ -119,31 +113,17 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
       }
 
       const data = (await response.json()) as NewsResponse;
-      const newCount = data.articles.filter((article) => !currentIds.has(article.id)).length;
 
       setPayload(data);
       setErrorMessage(null);
-
-      if (forceRefresh) {
-        setRefreshMessage(
-          newCount > 0
-            ? `${newCount} new article${newCount === 1 ? "" : "s"} loaded.`
-            : "No new articles since the last refresh.",
-        );
-      } else {
-        setRefreshMessage(null);
-      }
     } catch {
       setErrorMessage("Unable to refresh right now. Showing the latest cached update.");
-      setRefreshMessage(null);
-    } finally {
-      setIsRefreshing(false);
     }
-  }, [payload.articles]);
+  }, []);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      void refreshNews(false);
+      void refreshNews();
     }, payload.refreshIntervalMs);
 
     return () => clearInterval(timer);
@@ -164,19 +144,11 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
 
           <div className="flex flex-col gap-3 sm:items-end">
             <p className="text-xs text-[#8c94a3]">Updated {formatUpdatedLabel(payload.updatedAt)}</p>
-            <button
-              type="button"
-              onClick={() => void refreshNews(true)}
-              disabled={isRefreshing}
-              className="inline-flex items-center justify-center rounded-sm border border-[#232833] bg-[#0f131b] px-4 py-2 font-heading text-sm font-medium text-[#cdd3e1] transition hover:border-[#8c94a3] hover:text-[#eef1f6] disabled:cursor-not-allowed disabled:opacity-60"
-            >
-              {isRefreshing ? "Refreshing..." : "Refresh now"}
-            </button>
+            <p className="text-xs text-[#9ea8ba]">Auto-updated every ~5 minutes</p>
           </div>
         </div>
 
         {errorMessage ? <p className="mt-4 text-sm text-[#cdd3e1]">{errorMessage}</p> : null}
-        {refreshMessage ? <p className="mt-4 text-sm font-medium text-[#eef1f6]">{refreshMessage}</p> : null}
       </header>
 
       {payload.articles.length === 0 ? (
