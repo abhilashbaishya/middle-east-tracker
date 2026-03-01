@@ -138,7 +138,7 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
               Middle East Tracker
             </h1>
             <p className="mt-3 max-w-2xl text-base text-[#9ea8ba] [text-wrap:balance]">
-              Live reporting from major English-language outlets, focused on Israel, Iran, and U.S. developments.
+              Aggregating coverage from 9 international and Indian newsrooms — tracking the Israel-Palestine conflict, Iran tensions, and U.S. foreign policy in real time.
             </p>
           </div>
 
