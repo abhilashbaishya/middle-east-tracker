@@ -8,6 +8,7 @@ const FALLBACK_PAYLOAD: NewsResponse = {
   articles: [],
   updatedAt: new Date(0).toISOString(),
   refreshIntervalMs: 5 * 60 * 1000,
+  feedHealth: [],
   filters: {
     language: "English",
     keywords: ["Israel", "Iran", "USA"],

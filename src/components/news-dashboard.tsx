@@ -16,7 +16,7 @@ function formatUpdatedLabel(isoString: string): string {
     return "Unknown";
   }
 
-  return new Intl.DateTimeFormat("en-US", {
+  return new Intl.DateTimeFormat(undefined, {
     month: "short",
     day: "2-digit",
     hour: "numeric",
@@ -30,7 +30,7 @@ function formatPublishedDate(isoString: string): string {
     return "Unknown date";
   }
 
-  return new Intl.DateTimeFormat("en-US", {
+  return new Intl.DateTimeFormat(undefined, {
     month: "long",
     day: "numeric",
     year: "numeric",
@@ -43,7 +43,7 @@ function formatPublishedTime(isoString: string): string {
     return "Unknown time";
   }
 
-  return new Intl.DateTimeFormat("en-US", {
+  return new Intl.DateTimeFormat(undefined, {
     hour: "numeric",
     minute: "2-digit",
   }).format(date);

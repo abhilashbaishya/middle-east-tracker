@@ -3,15 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "node scripts/generate-news-json.mjs",
+    "predev": "tsx scripts/generate-news-json.ts",
     "dev": "next dev",
-    "prebuild": "node scripts/generate-news-json.mjs",
+    "prebuild": "tsx scripts/generate-news-json.ts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "data:refresh": "node scripts/generate-news-json.mjs"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "data:refresh": "tsx scripts/generate-news-json.ts"
   },
   "dependencies": {
+    "he": "^1.2.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
@@ -19,12 +22,15 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/he": "^1.2.3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.21.0",
+    "typescript": "^5",
+    "vitest": "^4.0.18"
   }
 }
