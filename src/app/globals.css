@@ -4,7 +4,18 @@
   --background: #050608;
   --foreground: #eef1f6;
   --muted: #8c94a3;
+  --muted-light: #a1a9b9;
+  --subtle: #9ea8ba;
   --divider: #232833;
+  --headline: #eef1f6;
+  --headline-hover: #f4f6fb;
+  --description: rgba(238, 241, 246, 0.56);
+  --cta-text: #9ea8ba;
+  --cta-underline: #4e586d;
+  --error: #cdd3e1;
+  --empty-border: #232833;
+  --bg-gradient-start: #10141c;
+  --bg-gradient-end: #080a0d;
 }
 
 @theme inline {
@@ -25,8 +36,8 @@ body {
   margin: 0;
   color: var(--foreground);
   background:
-    radial-gradient(circle at 50% -10%, #10141c 0%, transparent 42%),
-    linear-gradient(180deg, #050608 0%, #080a0d 100%);
+    radial-gradient(circle at 50% -10%, var(--bg-gradient-start) 0%, transparent 42%),
+    linear-gradient(180deg, var(--background) 0%, var(--bg-gradient-end) 100%);
   font-family: var(--font-geist), sans-serif;
 }
 
