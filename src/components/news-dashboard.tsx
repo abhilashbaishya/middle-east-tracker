@@ -53,19 +53,19 @@ function NewsRow({ article }: { article: NewsArticle }) {
   return (
     <article className="card-enter grid gap-5 py-10 md:grid-cols-[170px_1fr] md:gap-12">
       <div className="space-y-1 pt-1">
-        <p className="font-heading text-[clamp(.78rem,.74rem+.16vw,.9rem)] font-medium text-[#a1a9b9]">
+        <p className="font-mono text-[clamp(.78rem,.74rem+.16vw,.9rem)] text-[#a1a9b9]">
           {formatPublishedTime(article.publishedAt)}
         </p>
-        <p className="font-heading text-[clamp(.8rem,.76rem+.18vw,.95rem)] font-medium text-[#8c94a3]">
+        <p className="font-mono text-[clamp(.8rem,.76rem+.18vw,.95rem)] text-[#8c94a3]">
           {formatPublishedDate(article.publishedAt)}
         </p>
-        <p className="font-heading text-[clamp(.8rem,.76rem+.18vw,.95rem)] font-medium text-[#8c94a3]">
+        <p className="font-mono text-[clamp(.8rem,.76rem+.18vw,.95rem)] text-[#8c94a3]">
           {article.source}
         </p>
       </div>
 
       <div className="max-w-5xl">
-        <h2 className="mb-3 font-heading text-[32px] font-medium leading-[1.16] tracking-[0.005em] text-[#eef1f6] [text-wrap:balance]">
+        <h2 className="mb-3 font-display text-[32px] leading-[1.16] tracking-[-0.01em] text-[#eef1f6] [text-wrap:balance]">
           <a
             href={article.url}
             target="_blank"
@@ -76,10 +76,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
           </a>
         </h2>
 
-        <p
-          className="mb-4 max-w-4xl text-[16px] font-medium leading-[1.55] text-[rgba(238,241,246,0.56)] [text-wrap:balance]"
-          style={{ fontFamily: "var(--font-geist), sans-serif" }}
-        >
+        <p className="mb-4 max-w-4xl font-sans text-[16px] leading-[1.55] text-[rgba(238,241,246,0.56)] [text-wrap:balance]">
           {article.description || "Open the story for full details."}
         </p>
 
@@ -87,7 +84,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
           href={article.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 text-[16px] font-medium text-[#9ea8ba] underline decoration-[#4e586d] underline-offset-4 transition hover:text-[#eef1f6] hover:decoration-[#eef1f6]"
+          className="inline-flex items-center gap-1 font-sans text-[16px] font-medium text-[#9ea8ba] underline decoration-[#4e586d] underline-offset-4 transition hover:text-[#eef1f6] hover:decoration-[#eef1f6]"
         >
           Read more
         </a>
@@ -134,7 +131,7 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
       <header className="mb-8 border-b border-[#232833] pb-8">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div>
-            <h1 className="font-heading text-4xl font-medium leading-[1.03] text-[#eef1f6] sm:text-[3.2rem] [text-wrap:balance]">
+            <h1 className="font-display text-4xl leading-[1.03] tracking-[-0.01em] text-[#eef1f6] sm:text-[3.2rem] [text-wrap:balance]">
               Middle East Tracker
             </h1>
             <p className="mt-3 max-w-2xl text-base text-[#9ea8ba] [text-wrap:balance]">
@@ -143,8 +140,8 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
           </div>
 
           <div className="flex flex-col gap-3 sm:items-end">
-            <p className="text-xs text-[#8c94a3]">Updated {formatUpdatedLabel(payload.updatedAt)}</p>
-            <p className="text-xs text-[#9ea8ba]">Auto-updated every ~5 minutes</p>
+            <p className="font-mono text-xs text-[#8c94a3]">Updated {formatUpdatedLabel(payload.updatedAt)}</p>
+            <p className="font-mono text-xs text-[#9ea8ba]">Auto-updated every ~5 minutes</p>
           </div>
         </div>
 
