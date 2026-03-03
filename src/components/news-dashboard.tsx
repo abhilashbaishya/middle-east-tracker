@@ -53,30 +53,30 @@ function NewsRow({ article }: { article: NewsArticle }) {
   return (
     <article className="card-enter grid gap-5 py-10 md:grid-cols-[170px_1fr] md:gap-12">
       <div className="space-y-1 pt-1">
-        <p className="font-mono text-[clamp(.78rem,.74rem+.16vw,.9rem)] text-[#a1a9b9]">
+        <p className="font-mono text-[clamp(.78rem,.74rem+.16vw,.9rem)] text-[var(--muted-light)]">
           {formatPublishedTime(article.publishedAt)}
         </p>
-        <p className="font-mono text-[clamp(.8rem,.76rem+.18vw,.95rem)] text-[#8c94a3]">
+        <p className="font-mono text-[clamp(.8rem,.76rem+.18vw,.95rem)] text-[var(--muted)]">
           {formatPublishedDate(article.publishedAt)}
         </p>
-        <p className="font-mono text-[clamp(.8rem,.76rem+.18vw,.95rem)] text-[#8c94a3]">
+        <p className="font-mono text-[clamp(.8rem,.76rem+.18vw,.95rem)] text-[var(--muted)]">
           {article.source}
         </p>
       </div>
 
       <div className="max-w-5xl">
-        <h2 className="mb-3 font-display text-[32px] leading-[1.16] tracking-[-0.01em] text-[#eef1f6] [text-wrap:balance]">
+        <h2 className="mb-3 font-display text-[32px] leading-[1.16] tracking-[-0.01em] text-[var(--headline)] [text-wrap:balance]">
           <a
             href={article.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer underline decoration-transparent underline-offset-4 transition hover:text-[#f4f6fb] hover:decoration-[#f4f6fb] [text-wrap:balance]"
+            className="cursor-pointer underline decoration-transparent underline-offset-4 transition hover:text-[var(--headline-hover)] hover:decoration-[var(--headline-hover)] [text-wrap:balance]"
           >
             {article.title}
           </a>
         </h2>
 
-        <p className="mb-4 max-w-4xl font-sans text-[16px] leading-[1.55] text-[rgba(238,241,246,0.56)] [text-wrap:balance]">
+        <p className="mb-4 max-w-4xl font-sans text-[16px] leading-[1.55] text-[var(--description)] [text-wrap:balance]">
           {article.description || "Open the story for full details."}
         </p>
 
@@ -84,7 +84,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
           href={article.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 font-sans text-[16px] font-medium text-[#9ea8ba] underline decoration-[#4e586d] underline-offset-4 transition hover:text-[#eef1f6] hover:decoration-[#eef1f6]"
+          className="inline-flex items-center gap-1 font-sans text-[16px] font-medium text-[var(--cta-text)] underline decoration-[var(--cta-underline)] underline-offset-4 transition hover:text-[var(--headline)] hover:decoration-[var(--headline)]"
         >
           Read more
         </a>
@@ -127,33 +127,33 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
   }, [payload.refreshIntervalMs, refreshNews]);
 
   return (
-    <div className="mx-auto w-full max-w-7xl px-5 py-10 sm:px-8 lg:px-14">
-      <header className="mb-8 border-b border-[#232833] pb-8">
+    <div className="mx-auto w-full max-w-7xl px-5 pt-[72px] pb-10 sm:px-8 lg:px-14">
+      <header className="mb-8 border-b border-[var(--divider)] pb-8">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div>
-            <h1 className="font-display text-4xl leading-[1.03] tracking-[-0.01em] text-[#eef1f6] sm:text-[3.2rem] [text-wrap:balance]">
+            <h1 className="font-display text-4xl leading-[1.03] tracking-[-0.01em] text-[var(--headline)] sm:text-[3.2rem] [text-wrap:balance]">
               Middle East Tracker
             </h1>
-            <p className="mt-3 max-w-2xl text-base text-[#9ea8ba] [text-wrap:balance]">
+            <p className="mt-3 max-w-2xl text-base text-[var(--subtle)] [text-wrap:balance]">
               Aggregating coverage from 9 international and Indian newsrooms — tracking the Israel-Palestine conflict, Iran tensions, and U.S. foreign policy in real time.
             </p>
           </div>
 
           <div className="flex flex-col gap-3 sm:items-end">
-            <p className="font-mono text-xs text-[#8c94a3]">Updated {formatUpdatedLabel(payload.updatedAt)}</p>
-            <p className="font-mono text-xs text-[#9ea8ba]">Auto-updated every ~5 minutes</p>
+            <p className="font-mono text-xs text-[var(--muted)]">Updated {formatUpdatedLabel(payload.updatedAt)}</p>
+            <p className="font-mono text-xs text-[var(--subtle)]">Auto-updated every ~5 minutes</p>
           </div>
         </div>
 
-        {errorMessage ? <p className="mt-4 text-sm text-[#cdd3e1]">{errorMessage}</p> : null}
+        {errorMessage ? <p className="mt-4 text-sm text-[var(--error)]">{errorMessage}</p> : null}
       </header>
 
       {payload.articles.length === 0 ? (
-        <div className="border border-dashed border-[#232833] p-10 text-center text-[#9ea8ba]">
+        <div className="border border-dashed border-[var(--empty-border)] p-10 text-center text-[var(--subtle)]">
           No matching articles found right now.
         </div>
       ) : (
-        <section className="divide-y divide-[#232833] border-b border-[#232833]">
+        <section className="divide-y divide-[var(--divider)] border-b border-[var(--divider)]">
           {payload.articles.map((article) => (
             <NewsRow key={article.id} article={article} />
           ))}
