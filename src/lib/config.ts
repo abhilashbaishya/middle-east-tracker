@@ -56,6 +56,16 @@ export const FEEDS: readonly FeedSource[] = [
     url: "https://www.hindustantimes.com/feeds/rss/world-news/rssfeed.xml",
     logoUrl: "https://www.hindustantimes.com/res/images/ht-logo.svg",
   },
+  {
+    source: "Reuters",
+    url: "https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com&ceid=US:en&hl=en-US&gl=US",
+    logoUrl: "https://www.reuters.com/pf/resources/images/reuters/reuters-default.webp",
+  },
+  {
+    source: "AP News",
+    url: "https://news.google.com/rss/search?q=when:24h+allinurl:apnews.com&ceid=US:en&hl=en-US&gl=US",
+    logoUrl: "https://assets.apnews.com/fa/ba/9258a7114f5ba5c7202aaa1bdd66/aplogo.svg",
+  },
 ] as const;
 
 /**
