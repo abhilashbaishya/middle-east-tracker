@@ -1,11 +1,12 @@
 import Parser from "rss-parser";
 
 import {
+  BROAD_US_TERMS,
+  CONFLICT_TERMS,
   FEEDS,
   FILTER_KEYWORDS,
   MAX_ARTICLES,
   REFRESH_INTERVAL_MS,
-  TRACKING_TERMS,
   type FeedSource,
 } from "./config";
 import { clampDescription, stripHtml } from "./html";
@@ -103,8 +104,14 @@ export function classifyArticle(title: string, description: string): ArticleTag 
 }
 
 export function isTracked(title: string, description: string): boolean {
-  if (TRACKING_TERMS.some((term) => term.test(title))) return true;
-  return TRACKING_TERMS.some((term) => term.test(description));
+  const text = `${title} ${description}`;
+  const hasConflictTerm = CONFLICT_TERMS.some((t) => t.test(text));
+  if (hasConflictTerm) return true;
+  const hasUsTerm = BROAD_US_TERMS.some((t) => t.test(text));
+  if (!hasUsTerm) return false;
+  // US term found — only include if a conflict term is also present
+  // (already checked above, so this is purely US domestic → exclude)
+  return false;
 }
 
 function toIsoDate(rawDate?: string): string {

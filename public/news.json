@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/eyal-zamir-profile-iran-war.html",
+      "title": "Who Is Eyal Zamir, the Architect of Israel’s War Plans?",
+      "description": "The Israeli general has long been focused on the threat from Iran and its proxies, and has called for a regional alliance against the country.",
+      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/eyal-zamir-profile-iran-war.html",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-05T14:31:02.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/europe-iran-war-military-defense.html",
+      "title": "As Iran Widens Retaliatory Strikes, Europe Accelerates Response for Gulf Allies",
+      "description": "Defense Minister Guido Crosetto said that Italy would provide “air defense systems, anti-drone and antimissile systems” as Iran widened its retaliatory strikes.",
+      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/europe-iran-war-military-defense.html",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-05T14:30:06.000Z",
+      "tag": "Critical"
+    },
+    {
       "id": "https://www.nytimes.com/video/world/middleeast/100000010747493/on-the-ground-in-beirut.html",
       "title": "On the Ground in Beirut",
       "description": "Our Beirut bureau chief, Christina Goldbaum, reports on the escalating conflict between Israel and the Iran-backed armed group Hezbollah, as Israel’s military seizes areas of south...",
@@ -9,26 +29,6 @@
       "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
       "publishedAt": "2026-03-05T14:25:03.000Z",
       "tag": "Developing"
-    },
-    {
-      "id": "https://www.theguardian.com/business/2026/mar/05/trump-tariff-refunds-supreme-court",
-      "title": "US judge orders refunds for more than $130bn in illegal Trump tariffs",
-      "description": "Trade court directs customs to repay importers with interest after supreme court ruled tariffs unlawful A US trade court judge on Wednesday ordered the government to begin paying p...",
-      "url": "https://www.theguardian.com/business/2026/mar/05/trump-tariff-refunds-supreme-court",
-      "source": "The Guardian",
-      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
-      "publishedAt": "2026-03-05T14:17:18.000Z",
-      "tag": "Update"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772711111",
-      "title": "Which Kurdish groups is the US rallying to fight Iran?",
-      "description": "US President Donald Trump has spoken to at least three Kurdish groups in Iran and Iraq in recent days.",
-      "url": "https://www.aljazeera.com/news/2026/3/5/which-kurdish-groups-is-the-us-rallying-to-fight?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-03-05T14:17:02.000Z",
-      "tag": "Update"
     },
     {
       "id": "article-70708010",
@@ -41,16 +41,6 @@
       "tag": "Update"
     },
     {
-      "id": "article-70705756",
-      "title": "Anti-war activist, three police officers injured in scuffle at U.S. Capitol Hill",
-      "description": "The protester, Brian C. McGinnis of North Carolina, was arrested and faces three counts of assaulting a police officer and three counts of resisting arrest and unlawful demonstrati...",
-      "url": "https://www.thehindu.com/news/international/anti-war-activist-police-officers-injured-in-scuffle-at-us-capitol-hill/article70705756.ece",
-      "source": "The Hindu",
-      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-03-05T14:14:26.000Z",
-      "tag": "Critical"
-    },
-    {
       "id": "https://www.theguardian.com/world/live/2026/mar/05/iran-war-latest-updates-canada-carney-trump-israel-tehran-strikes",
       "title": "Middle East crisis live: Azerbaijan troops at ‘highest level of readiness’ as Iran denies it is behind drone attacks",
       "description": "President warns ‘any hostile force will feel the full might of our Iron Fist’ Tell us: how have you been affected by the latest events in the Middle East? Iran says it has targeted...",
@@ -59,16 +49,6 @@
       "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
       "publishedAt": "2026-03-05T14:12:45.000Z",
       "tag": "Critical"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/03/03/world/middleeast/us-soldiers-killed-iran-war.html",
-      "title": "These American Service Members Died in the Iran Conflict",
-      "description": "They were from states across the country, in a unit dedicated to resupplying troops. One was wrapping up his final deployment and hoped to open a martial arts studio.",
-      "url": "https://www.nytimes.com/2026/03/03/world/middleeast/us-soldiers-killed-iran-war.html",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-03-05T14:11:44.000Z",
-      "tag": "Update"
     },
     {
       "id": "https://www.theguardian.com/world/live/2026/mar/05/spain-us-israel-war-iran-white-house-trade-evacuations-latest-news",
@@ -201,26 +181,6 @@
       "tag": "Update"
     },
     {
-      "id": "CBMi5wJBVV95cUxQdWJVVXlaeEhXLUtyOWpJTXU3OEM1emRJVURGdGQyX2h5alZDRUwzXzRCWTZiRjhzMnlGMGVBdlU1YlQ5OU9NRzc2R0ZpempuMmFFWV95ZE5fWTFWSkZyMDhIWURxTGgtQVBaRTlKSWVSdUZFblpJWW8zNXJoYkZPVDE5a1Y0bC1QMFhRZW1HUnhXckxlV2JEY19xRnlrMmVxWHFDQ2hON2xpeDdJT1gxWWIyMkQzcE5vN1RISUhtN3c0RkE2RE4tUHRBQVoyZFVfS0pmVEVBWkcwaGRLbmY5YzdYeHJUcFpHM0Y0by10ZUVDajdkUDV0dDVSRGVDWnRIOTNmdm11QWdhS3hObi1SVS1HVm43UWx6UXktMkEwWncwdjlkalFrbkV0ZW93ZldYNFR0dWxBLXVoX2toMFZCbVpFWVpmellmQTJxekx0SmtoRDBZX0ozU1B2eG5BX21tTkQ0a01OMA",
-      "title": "Wave Life Sciences Announces Acceptance Of Late-Breaking Oral Presentation On Wve-006 For Alpha-1 Antitrypsin Deficiency At The American Thoracic Society International Conference - TradingView",
-      "description": "Wave Life Sciences Announces Acceptance Of Late-Breaking Oral Presentation On Wve-006 For Alpha-1 Antitrypsin Deficiency At The American Thoracic Society International Conference T...",
-      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxQdWJVVXlaeEhXLUtyOWpJTXU3OEM1emRJVURGdGQyX2h5alZDRUwzXzRCWTZiRjhzMnlGMGVBdlU1YlQ5OU9NRzc2R0ZpempuMmFFWV95ZE5fWTFWSkZyMDhIWURxTGgtQVBaRTlKSWVSdUZFblpJWW8zNXJoYkZPVDE5a1Y0bC1QMFhRZW1HUnhXckxlV2JEY19xRnlrMmVxWHFDQ2hON2xpeDdJT1gxWWIyMkQzcE5vN1RISUhtN3c0RkE2RE4tUHRBQVoyZFVfS0pmVEVBWkcwaGRLbmY5YzdYeHJUcFpHM0Y0by10ZUVDajdkUDV0dDVSRGVDWnRIOTNmdm11QWdhS3hObi1SVS1HVm43UWx6UXktMkEwWncwdjlkalFrbkV0ZW93ZldYNFR0dWxBLXVoX2toMFZCbVpFWVpmellmQTJxekx0SmtoRDBZX0ozU1B2eG5BX21tTkQ0a01OMA?oc=5",
-      "source": "Reuters",
-      "logoUrl": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.webp",
-      "publishedAt": "2026-03-05T13:34:50.000Z",
-      "tag": "Developing"
-    },
-    {
-      "id": "CBMivgFBVV95cUxObExMV3VXaDBMOEg3UF9lZ2h0SWpETUlmcWUxcUdZOHh2SklaWDBJZFV3eUU2SWE5bHBKVEg0bG9kQ3h2ZmVDcm5VdEw4ajV2WHd3cHZFXzhrWDlja0ZlS0V3WXJwdThTSjFsQ2FTUDJyeTBQRTJ0XzVNZndfbUVVaThDUURkSE1vWUVUNHFFLV91MFdReFNkZ1dxT0hMS0JseEFtYTFCTGtqenh4Rnl1aHhiSmQ4N0VYdUIwcVBn",
-      "title": "U.S. Q4 non-farm productivity preliminary data - TradingView",
-      "description": "U.S. Q4 non-farm productivity preliminary data TradingView",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObExMV3VXaDBMOEg3UF9lZ2h0SWpETUlmcWUxcUdZOHh2SklaWDBJZFV3eUU2SWE5bHBKVEg0bG9kQ3h2ZmVDcm5VdEw4ajV2WHd3cHZFXzhrWDlja0ZlS0V3WXJwdThTSjFsQ2FTUDJyeTBQRTJ0XzVNZndfbUVVaThDUURkSE1vWUVUNHFFLV91MFdReFNkZ1dxT0hMS0JseEFtYTFCTGtqenh4Rnl1aHhiSmQ4N0VYdUIwcVBn?oc=5",
-      "source": "Reuters",
-      "logoUrl": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.webp",
-      "publishedAt": "2026-03-05T13:34:00.000Z",
-      "tag": "Update"
-    },
-    {
       "id": "https://www.aljazeera.com/?t=1772708974",
       "title": "While US encourages Kurds to attack Iran, history serves darker warning",
       "description": "Kurds weigh Washington's push for a rebellion on Iranian soil against a history of betrayals and pragmatic alliances.",
@@ -238,16 +198,6 @@
       "source": "Al Jazeera",
       "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
       "publishedAt": "2026-03-05T13:29:00.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/03/04/us/politics/submarine-torpedo-iran-ship.html",
-      "title": "U.S. Submarine Launches Its First Torpedo in Combat Since World War II",
-      "description": "Since 1991, Navy subs have launched scores of cruise missiles in combat, but the torpedo attack off Sri Lanka is a return to form after 80 years.",
-      "url": "https://www.nytimes.com/2026/03/04/us/politics/submarine-torpedo-iran-ship.html",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-03-05T13:27:31.000Z",
       "tag": "Critical"
     },
     {
@@ -331,16 +281,6 @@
       "tag": "Critical"
     },
     {
-      "id": "https://www.theguardian.com/us-news/2026/mar/05/trump-administration-measles",
-      "title": "Trump administration is failing to address spread of measles, experts say",
-      "description": "As number of cases climbs past 1,000, experts say CDC is not taking obvious steps amid funding cuts Experts say that the Trump administration has failed to take obvious steps to co...",
-      "url": "https://www.theguardian.com/us-news/2026/mar/05/trump-administration-measles",
-      "source": "The Guardian",
-      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
-      "publishedAt": "2026-03-05T13:00:03.000Z",
-      "tag": "Update"
-    },
-    {
       "id": "https://www.aljazeera.com/?t=1772690937",
       "title": "Will the US benefit from the oil crisis sparked by the war on Iran?",
       "description": "Attacks on energy sites in the Gulf and disruptions in the Strait of Hormuz give Western exporters a chance to profit.",
@@ -381,16 +321,6 @@
       "tag": "Critical"
     },
     {
-      "id": "article-70707124",
-      "title": "Raisina Dialogue 2026: U.S. foreign policy is to advance our national interests, says Christopher Landau",
-      "description": "Deputy Secretary of State Christopher Landau emphasises the U.S. commitment to its national interests while advocating for a collaborative partnership with India",
-      "url": "https://www.thehindu.com/news/international/raisina-dialogue-2026-us-foreign-policy-is-to-advance-our-national-interests-says-christopher-landau/article70707124.ece",
-      "source": "The Hindu",
-      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-03-05T12:41:06.000Z",
-      "tag": "Update"
-    },
-    {
       "id": "https://indianexpress.com/?post_type=article&p=10566177",
       "title": "US-Israel war on Iran: Country-wise list of casualties",
       "description": "",
@@ -419,9 +349,79 @@
       "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
       "publishedAt": "2026-03-05T12:39:10.000Z",
       "tag": "Critical"
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/iran-israel-war-could-iran-war-trigger-new-refugee-wave-countries-most-likely-to-feel-it-first-11172770#publisher=newsstand",
+      "title": "Could Iran War Trigger New Refugee Wave? Countries Most Likely To Feel It First",
+      "description": "During the Syrian crisis, similar routes brought more than one million migrants into Europe in 2015, triggering political upheaval across several EU countries.",
+      "url": "https://www.ndtv.com/world-news/iran-israel-war-could-iran-war-trigger-new-refugee-wave-countries-most-likely-to-feel-it-first-11172770#publisher=newsstand",
+      "source": "NDTV",
+      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
+      "publishedAt": "2026-03-05T12:36:46.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.hindustantimes.com/world-news/chinese-professor-made-three-predictions-for-us-in-2024-two-turns-out-to-be-true-101772708005014.html",
+      "title": "Chinese professor made three predictions for US in 2024, two turns out to be true",
+      "description": "As tensions between Washington and Tehran continue to simmer, clips from his 2024 lecture are being widely shared online.",
+      "url": "https://www.hindustantimes.com/world-news/chinese-professor-made-three-predictions-for-us-in-2024-two-turns-out-to-be-true-101772708005014.html",
+      "source": "Hindustan Times",
+      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
+      "publishedAt": "2026-03-05T12:34:49.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "https://www.aljazeera.com/?t=1772709455",
+      "title": "Iranians get by as US, Israeli bombs rain down, internet blocked",
+      "description": "Officials say some water, electricity facilities damaged amid US-Israel bombing, but no widespread outages reported yet.",
+      "url": "https://www.aljazeera.com/news/2026/3/5/iranians-get-by-as-us-israeli-bombs-rain-down-internet-blocked?traffic_source=rss",
+      "source": "Al Jazeera",
+      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
+      "publishedAt": "2026-03-05T12:22:57.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/israel-downs-iran-fighter-plane-yak130.html",
+      "title": "Israel Says It Downed an Iranian Yak-130 Fighter Jet Over Tehran",
+      "description": "Israel said one of its F-35 fighter jets, known as an Adir, had downed another crewed plane over Tehran, the Iranian capital. Iran did not immediately comment.",
+      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/israel-downs-iran-fighter-plane-yak130.html",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-05T12:17:03.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/iran-israel-war-iran-denies-attacking-azerbaijan-baku-says-strikes-wont-go-unanswered-11172495#publisher=newsstand",
+      "title": "Iran Denies Attacking Azerbaijan, Baku Says Strikes 'Won't Go Unanswered'",
+      "description": "Azerbaijan said it was preparing to retaliate after two people were wounded on Thursday in Iranian drone hits on an airport and near a school.",
+      "url": "https://www.ndtv.com/world-news/iran-israel-war-iran-denies-attacking-azerbaijan-baku-says-strikes-wont-go-unanswered-11172495#publisher=newsstand",
+      "source": "NDTV",
+      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
+      "publishedAt": "2026-03-05T12:12:52.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "CBMivAFBVV95cUxPdUlhS3UwQjFCLVA4ZUppS2tlbE5IUm4xLWs5dGR6SFhrdU1TR0gwVGJEUUdiczRnbVdzVFNnZTBtMTk0UGFJaXNBRXRTV2taRENHdHVnY1VlNG5SdTE3Q0VhS3VadTN2YjlVOUZ6aGxvMm5ha2lyeHlYNE00WEhVUGFVRE8ydmNMdUVLWEtuMjNLVm5VcGU4N2JSVzNzYkdYaFhQQ0k2ZDhGcGt3cktMVGdZcG1Tc0YwUFlLcg",
+      "title": "Joy of UK's Iranian diaspora turning to fear as conflict rocks homeland - Reuters",
+      "description": "Joy of UK's Iranian diaspora turning to fear as conflict rocks homeland Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdUlhS3UwQjFCLVA4ZUppS2tlbE5IUm4xLWs5dGR6SFhrdU1TR0gwVGJEUUdiczRnbVdzVFNnZTBtMTk0UGFJaXNBRXRTV2taRENHdHVnY1VlNG5SdTE3Q0VhS3VadTN2YjlVOUZ6aGxvMm5ha2lyeHlYNE00WEhVUGFVRE8ydmNMdUVLWEtuMjNLVm5VcGU4N2JSVzNzYkdYaFhQQ0k2ZDhGcGt3cktMVGdZcG1Tc0YwUFlLcg?oc=5",
+      "source": "Reuters",
+      "logoUrl": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.webp",
+      "publishedAt": "2026-03-05T12:10:51.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/us-israel-iran-war-2-indians-killed-in-iran-attack-on-oil-tanker-skylight-in-strait-of-hormuz-near-oman-port-11171213#publisher=newsstand",
+      "title": "2 Indians Killed In Iran Attack On Oil Tanker 'Skylight' In Strait Of Hormuz",
+      "description": "The Palau-flagged oil tanker was struck off Oman's Musandam Peninsula in an attack that followed drone strikes on the country's Duqm port.",
+      "url": "https://www.ndtv.com/world-news/us-israel-iran-war-2-indians-killed-in-iran-attack-on-oil-tanker-skylight-in-strait-of-hormuz-near-oman-port-11171213#publisher=newsstand",
+      "source": "NDTV",
+      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
+      "publishedAt": "2026-03-05T12:09:59.000Z",
+      "tag": "Critical"
     }
   ],
-  "updatedAt": "2026-03-05T14:30:14.398Z",
+  "updatedAt": "2026-03-05T14:33:24.254Z",
   "refreshIntervalMs": 300000,
   "feedHealth": [
     {
@@ -432,22 +432,22 @@
     {
       "source": "The New York Times",
       "status": "ok",
-      "articleCount": 42
+      "articleCount": 38
     },
     {
       "source": "The Guardian",
       "status": "ok",
-      "articleCount": 17
+      "articleCount": 15
     },
     {
       "source": "Al Jazeera",
       "status": "ok",
-      "articleCount": 21
+      "articleCount": 19
     },
     {
       "source": "The Hindu",
       "status": "ok",
-      "articleCount": 65
+      "articleCount": 55
     },
     {
       "source": "Indian Express",
@@ -467,17 +467,17 @@
     {
       "source": "Hindustan Times",
       "status": "ok",
-      "articleCount": 47
+      "articleCount": 46
     },
     {
       "source": "Reuters",
       "status": "ok",
-      "articleCount": 21
+      "articleCount": 18
     },
     {
       "source": "AP News",
       "status": "ok",
-      "articleCount": 11
+      "articleCount": 10
     }
   ],
   "filters": {

@@ -69,18 +69,13 @@ export const FEEDS: readonly FeedSource[] = [
 ] as const;
 
 /**
- * Tracking terms use word boundaries to match whole words only.
- * Title-priority matching is applied in the filtering logic:
- * terms found in the title are given higher confidence than
- * terms found only in the description.
+ * Conflict-specific terms always qualify an article for inclusion.
+ * Broad US terms only qualify if a conflict term is also present,
+ * preventing purely domestic US news from appearing.
  */
-export const TRACKING_TERMS = [
+export const CONFLICT_TERMS = [
   /\bisrael(?:i)?\b/i,
   /\biran(?:ian)?\b/i,
-  /\busa\b/i,
-  /\bu\.s\.(?:a\.?)?/i,
-  /\bunited states\b/i,
-  /\bamerican\b/i,
   /\bgaza\b/i,
   /\bhezbollah\b/i,
   /\bhamas\b/i,
@@ -88,5 +83,15 @@ export const TRACKING_TERMS = [
   /\bnetanyahu\b/i,
   /\btehran\b/i,
 ] as const;
+
+export const BROAD_US_TERMS = [
+  /\busa\b/i,
+  /\bu\.s\.(?:a\.?)?/i,
+  /\bunited states\b/i,
+  /\bamerican\b/i,
+] as const;
+
+/** @deprecated Use CONFLICT_TERMS + BROAD_US_TERMS instead */
+export const TRACKING_TERMS = [...CONFLICT_TERMS, ...BROAD_US_TERMS] as const;
 
 export const FILTER_KEYWORDS = ["Israel", "Iran", "USA", "Gaza", "Hezbollah", "Hamas"];
