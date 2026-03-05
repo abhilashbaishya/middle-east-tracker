@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 
-import type { NewsArticle, NewsResponse } from "@/lib/news";
+import type { ArticleTag, NewsArticle, NewsResponse } from "@/lib/news";
 
 type DashboardProps = {
   initialPayload: NewsResponse;
@@ -49,19 +49,37 @@ function formatPublishedTime(isoString: string): string {
   }).format(date);
 }
 
+const TAG_STYLES: Record<ArticleTag, string> = {
+  Critical: "bg-red-100 text-red-700",
+  Developing: "bg-amber-100 text-amber-700",
+  Update: "bg-gray-100 text-gray-600",
+  Context: "bg-blue-100 text-blue-700",
+};
+
+function TagPill({ tag }: { tag: ArticleTag }) {
+  return (
+    <span className={`inline-block rounded-full px-2 py-0.5 font-mono text-[10px] font-medium uppercase tracking-wide ${TAG_STYLES[tag]}`}>
+      {tag}
+    </span>
+  );
+}
+
 function NewsRow({ article }: { article: NewsArticle }) {
   return (
     <article className="card-enter grid gap-5 py-10 md:grid-cols-[170px_1fr] md:gap-12">
-      <div className="space-y-1 pt-1">
-        <p className="font-mono text-[clamp(.78rem,.74rem+.16vw,.9rem)] text-[var(--muted-light)]">
-          {formatPublishedTime(article.publishedAt)}
-        </p>
-        <p className="font-mono text-[clamp(.8rem,.76rem+.18vw,.95rem)] text-[var(--muted)]">
-          {formatPublishedDate(article.publishedAt)}
-        </p>
-        <p className="font-mono text-[clamp(.8rem,.76rem+.18vw,.95rem)] text-[var(--muted)]">
-          {article.source}
-        </p>
+      <div className="pt-1">
+        {article.tag && <div className="mb-4"><TagPill tag={article.tag} /></div>}
+        <div className="space-y-0.5">
+          <p className="font-sans text-[clamp(.78rem,.74rem+.16vw,.9rem)] text-[var(--muted-light)]">
+            {formatPublishedTime(article.publishedAt)}
+          </p>
+          <p className="font-sans text-[clamp(.8rem,.76rem+.18vw,.95rem)] text-[var(--muted)]">
+            {formatPublishedDate(article.publishedAt)}
+          </p>
+          <p className="font-sans text-[clamp(.8rem,.76rem+.18vw,.95rem)] text-[var(--muted)]">
+            {article.source}
+          </p>
+        </div>
       </div>
 
       <div className="max-w-5xl">

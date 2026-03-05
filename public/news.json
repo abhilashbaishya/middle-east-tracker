@@ -1,392 +1,484 @@
 {
   "articles": [
     {
-      "id": "https://indianexpress.com/?post_type=article&p=10557944",
-      "title": "Iran-Israel Conflict: Flight operations suspended at Dubai airports, netizens report chaos",
-      "description": "",
-      "url": "https://indianexpress.com/article/world/iran-israel-conflict-flight-operations-suspended-at-dubai-airports-netizens-report-chaos-10557944/",
-      "source": "Indian Express",
-      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
-      "publishedAt": "2026-02-28T15:13:08.000Z"
+      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/iran-navy-ships-war.html",
+      "title": "Trump Says He Wants to Destroy Iran’s Navy. Here’s What to Know.",
+      "description": "The United States has long considered Iranian naval ships a serious threat, even as the country’s nuclear and missile programs dominate discussions of its military capabilities.",
+      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/iran-navy-ships-war.html",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-05T13:57:18.000Z",
+      "tag": "Context"
     },
     {
-      "id": "article-70687211",
-      "title": "Israel and U.S. launch strikes on Iran, targeting its leadership",
-      "description": "The apparent strike happened near the offices of Supreme Leader Ayatollah Ali Khamenei",
-      "url": "https://www.thehindu.com/news/international/israel-attack-on-iran-february-28-2026/article70687211.ece",
-      "source": "The Hindu",
-      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-02-28T15:13:05.000Z"
+      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/iran-kurds-who.html",
+      "title": "Iranian Kurdish Forces Say They May Enter Iran. Who Are the Kurds?",
+      "description": "Spread across Iran, Iraq, Syria and Turkey, the ethnic group of 40 million has long sought, and fought for, greater autonomy.",
+      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/iran-kurds-who.html",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-05T13:55:44.000Z",
+      "tag": "Update"
     },
     {
-      "id": "https://www.theguardian.com/world/live/2026/feb/28/israel-attacks-iran-as-blasts-heard-in-tehran-live-updates",
-      "title": "US and Israel launch major attack on Iran as Tehran retaliates across the Middle East – live",
-      "description": "Iran targets US military bases and Israel as Donald Trump says ‘major combat operation’ under way Full report: US and Israel attack Iran Analysis: Trump’s attack has no mandate Wha...",
-      "url": "https://www.theguardian.com/world/live/2026/feb/28/israel-attacks-iran-as-blasts-heard-in-tehran-live-updates",
+      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/azerbaijan-iran-drone-attack-airport.html",
+      "title": "Iranian Drones Fall in Azerbaijan as Conflict Spreads Beyond Mideast",
+      "description": "Azerbaijan threatened to retaliate, as the neighbors with a long history of tensions found themselves again at odds.",
+      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/azerbaijan-iran-drone-attack-airport.html",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-05T13:55:02.000Z",
+      "tag": "Context"
+    },
+    {
+      "id": "https://www.theguardian.com/world/live/2026/mar/05/spain-us-israel-war-iran-white-house-trade-evacuations-latest-news",
+      "title": "German foreign minister says ‘we will not allow ourselves to be divided’ after Trump-Spain spat – Europe live",
+      "description": "The US president previously threatened to stop all trade with Spain after it said it didn’t back the US-Israeli military operation against Iran Meanwhile, France has allowed US air...",
+      "url": "https://www.theguardian.com/world/live/2026/mar/05/spain-us-israel-war-iran-white-house-trade-evacuations-latest-news",
       "source": "The Guardian",
       "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
-      "publishedAt": "2026-02-28T15:07:34.000Z"
+      "publishedAt": "2026-03-05T13:53:42.000Z",
+      "tag": "Update"
     },
     {
-      "id": "article-70687247",
-      "title": "Iran-Israel conflict LIVE: Iran's supreme leader Khamenei to give speech shortly, says broadcaster",
-      "description": "\"The aim of the operation is to put an end to the threat from the Ayatollah regime in Iran,\" says Israeli PM Netanyahu; Iran has targeted U.S. military bases in Kuwait, Qatar, the...",
-      "url": "https://www.thehindu.com/news/international/iran-israel-usa-conflict-strikes-attack-west-asia-us-trump-live-updates-february-28-2026/article70687247.ece",
-      "source": "The Hindu",
-      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-02-28T15:07:30.000Z"
-    },
-    {
-      "id": "https://www.hindustantimes.com/world-news/missiles-interceptions-air-closure-mark-day-of-fear-for-uae-residents-as-us-israel-strikes-ignite-middle-east-conflict-101772291050371.html",
-      "title": "Missiles, interceptions, air closure on day of fear for UAE residents as US-Israel strikes on Iran ignite wider conflict",
-      "description": "As Tehran launched simultaneous missiles across the United Arab Emirates (UAE), Bahrain, and Qatar, civilians took shelter and mostly remained indoors.",
-      "url": "https://www.hindustantimes.com/world-news/missiles-interceptions-air-closure-mark-day-of-fear-for-uae-residents-as-us-israel-strikes-ignite-middle-east-conflict-101772291050371.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-02-28T15:07:19.000Z"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-attacks-what-to-know.html",
-      "title": "What to Know About the U.S. Attacks on Iran",
-      "description": "The United States, joined by Israel, launched an attack on major cities in Iran, as President Trump called on Iranians to overthrow the government.",
-      "url": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-attacks-what-to-know.html",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-02-28T15:06:21.000Z"
-    },
-    {
-      "id": "https://www.hindustantimes.com/world-news/all-i-want-is-freedom-for-trump-remark-after-us-israel-strike-on-iran-101772290447461.html",
-      "title": "‘All I want is freedom for…’: Trump's big remark after US-Israel strike on Iran",
-      "description": "Trump was speaking hours after Israel and US jointly launched strikes on Iran, which among other things targeted the area near Khamenei's residence.",
-      "url": "https://www.hindustantimes.com/world-news/all-i-want-is-freedom-for-trump-remark-after-us-israel-strike-on-iran-101772290447461.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-02-28T14:59:27.000Z"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772290216",
-      "title": "Scenes of destruction in Iran after US-Israeli strikes",
-      "description": "Footage from Tehran shows burned vehicles, wrecked buildings, towering plumes of smoke, and a massive crater.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/28/scenes-of-destruction-in-iran-after-us-israeli-strikes?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-02-28T14:58:21.000Z"
-    },
-    {
-      "id": "https://www.hindustantimes.com/world-news/us-news/did-iran-strike-us-mst-warship-all-we-know-amid-trumps-operation-epic-fury-101772289582411.html",
-      "title": "Did Iran strike US MST warship? All we know amid Trump's ‘Operation Epic Fury’",
-      "description": "The IRGC announced that a U.S. MST combat support vessel was significantly damaged by its missiles in retaliation to Trump's Operation Epic Fury.",
-      "url": "https://www.hindustantimes.com/world-news/us-news/did-iran-strike-us-mst-warship-all-we-know-amid-trumps-operation-epic-fury-101772289582411.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-02-28T14:57:28.000Z"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/02/28/world/middleeast/israel-missiles-shelter-iran.html",
-      "title": "Israelis Take Shelter as Sirens Warn of Incoming Missiles",
-      "description": "People across the country took cover from Iran’s retaliatory strikes. “Oh, I did not miss this sound,” one woman said of the air raid alerts.",
-      "url": "https://www.nytimes.com/2026/02/28/world/middleeast/israel-missiles-shelter-iran.html",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-02-28T14:45:44.000Z"
-    },
-    {
-      "id": "https://indianexpress.com/?post_type=article&p=10557795",
-      "title": "World leaders call for de-escalation after Israel and US attack Iran",
-      "description": "",
-      "url": "https://indianexpress.com/article/world/world-leaders-call-for-de-escalation-after-israel-and-us-attack-iran-10557795/",
-      "source": "Indian Express",
-      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
-      "publishedAt": "2026-02-28T14:45:01.000Z"
-    },
-    {
-      "id": "https://indianexpress.com/?post_type=article&p=10557901",
-      "title": "Iran-Israel war: Smoke seen rising from Supreme Leader Khamenei’s residential compound amid US strikes",
-      "description": "",
-      "url": "https://indianexpress.com/article/world/iran-khamenei-compound-strike-operation-epic-fury-regional-missile-barrage-10557901/",
-      "source": "Indian Express",
-      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
-      "publishedAt": "2026-02-28T14:35:56.000Z"
-    },
-    {
-      "id": "https://www.hindustantimes.com/world-news/us-news/ayatollah-khamenei-vs-trump-vs-netanyahus-net-worth-who-is-the-richest-101772281314649.html",
-      "title": "Ayatollah Ali Khamenei vs Trump vs Netanyahu's net worth: Who is the richest?",
-      "description": "Ayatollah Ali Khamenei, Iran's Supreme Leader since 1989, is believed to manage a vast financial empire valued between $95 billion and $200 billion.",
-      "url": "https://www.hindustantimes.com/world-news/us-news/ayatollah-khamenei-vs-trump-vs-netanyahus-net-worth-who-is-the-richest-101772281314649.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-02-28T14:35:11.000Z"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/world/us/obama-will-attack-will-use-iran-card-trumps-old-tweet-resurfaces-after-us-israeli-strikes/articleshow/128888141.cms",
-      "title": "'Obama will attack, will use Iran card': Trump’s old tweet resurfaces after US-Israeli strikes",
-      "description": "Explosions rocked Tehran after US-Israeli strikes, reviving Donald Trump's 2013 tweet predicting Obama would attack Iran. Now, with \"Operation Epic Fury\" targeting Iran and Tehran...",
-      "url": "https://timesofindia.indiatimes.com/world/us/obama-will-attack-will-use-iran-card-trumps-old-tweet-resurfaces-after-us-israeli-strikes/articleshow/128888141.cms",
-      "source": "Times of India",
-      "logoUrl": "https://static.toiimg.com/photo/47529300.cms",
-      "publishedAt": "2026-02-28T14:33:26.000Z"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772285502",
-      "title": "Inside Israel’s ‘normal’: Triumphalism and calm mix after attack on Iran",
-      "description": "Israel has been on high alert since it launched a wave of joint attacks with the US against Iran.",
-      "url": "https://www.aljazeera.com/news/2026/2/28/inside-israels-normal-triumphalism-and-calm-mix-after-attack-on-iran?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-02-28T14:23:43.000Z"
-    },
-    {
-      "id": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump/see-photos-and-videos-from-the-middle-east-after-the-us-led-attacks",
-      "title": "See photos and videos from the Middle East after the U.S.-led attacks.",
-      "description": "",
-      "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump/see-photos-and-videos-from-the-middle-east-after-the-us-led-attacks",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-02-28T14:23:18.000Z"
-    },
-    {
-      "id": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-iran-israel-war-missile-attack-abu-dhabi-explosions-uae-airport-closed-news-101772286839577.html",
-      "title": "Dubai news live updates: Burj Khalifa evacuated, Dubai airport ops shut as UAE on 'high alert'",
-      "description": "Dubai news live updates: Dubai airport halted flights after blasts amid US-Israel strikes on Iran. One civilian died in Abu Dhabi earlier after being struck by falling debris.",
-      "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-iran-israel-war-missile-attack-abu-dhabi-explosions-uae-airport-closed-news-101772286839577.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-02-28T14:23:08.000Z"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-retaliatory-strikes-region.html",
-      "title": "Iran Hits Back Across the Mideast, Targeting U.S. Bases and Allies",
-      "description": "Waves of retaliatory strikes were reported in Israel and across several Gulf countries on Saturday. The Emirati government said at least one person was killed from falling missile...",
-      "url": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-retaliatory-strikes-region.html",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-02-28T14:22:36.000Z"
-    },
-    {
-      "id": "https://www.theguardian.com/politics/2026/feb/28/starmer-chairs-cobra-meeting-after-us-israel-strikes-on-iran",
-      "title": "Starmer chairs Cobra meeting after strikes by US and Israel on Iran",
-      "description": "Prime minister calls together emergency committee to decide UK’s response to latest fighting in Middle East US-Israeli attack on Iran – live updates US and Israel strikes on Iran:...",
-      "url": "https://www.theguardian.com/politics/2026/feb/28/starmer-chairs-cobra-meeting-after-us-israel-strikes-on-iran",
+      "id": "https://www.theguardian.com/world/live/2026/mar/05/iran-war-latest-updates-canada-carney-trump-israel-tehran-strikes",
+      "title": "Middle East crisis live: Azerbaijan says drone attacks ‘will not remain unanswered’ as Iran denies involvement",
+      "description": "Iran denied involvement and has blamed the attack on Israel, but the Azerbaijani defence ministry placed the blame on Tehran Tell us: how have you been affected by the latest event...",
+      "url": "https://www.theguardian.com/world/live/2026/mar/05/iran-war-latest-updates-canada-carney-trump-israel-tehran-strikes",
       "source": "The Guardian",
       "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
-      "publishedAt": "2026-02-28T14:21:46.000Z"
+      "publishedAt": "2026-03-05T13:47:24.000Z",
+      "tag": "Critical"
     },
     {
-      "id": "https://www.aljazeera.com/?t=1772287568",
-      "title": "Over 50 killed in strike on girls’ elementary school in Iran",
-      "description": "Footage from Minab, Iran, shows the aftermath of an Israeli-US strike on a girls' elementary school.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/28/over-50-killed-in-strike-on-girls-elementary-school-in-iran?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-02-28T14:16:14.000Z"
+      "id": "https://www.theguardian.com/us-news/live/2026/mar/05/donald-trump-war-powers-latest-news-updates",
+      "title": "House to vote on limiting Trump’s powers in Iran war after Senate measure fails – US politics live",
+      "description": "House decision is expected to be tight after war powers resolution in the Senate fell apart along party lines Senate votes down resolution to prevent Trump from continuing Iran war...",
+      "url": "https://www.theguardian.com/us-news/live/2026/mar/05/donald-trump-war-powers-latest-news-updates",
+      "source": "The Guardian",
+      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
+      "publishedAt": "2026-03-05T13:42:51.000Z",
+      "tag": "Critical"
     },
     {
-      "id": "https://timesofindia.indiatimes.com/world/us/huge-blow-to-indian-students-dhs-letter-shows-us-reviewing-opt-work-rules-stem-likely-most-affected/articleshow/128888069.cms",
-      "title": "‘Huge blow to Indian students’: DHS letter shows US reviewing OPT work rules, STEM likely most affected",
-      "description": "",
-      "url": "https://timesofindia.indiatimes.com/world/us/huge-blow-to-indian-students-dhs-letter-shows-us-reviewing-opt-work-rules-stem-likely-most-affected/articleshow/128888069.cms",
-      "source": "Times of India",
-      "logoUrl": "https://static.toiimg.com/photo/47529300.cms",
-      "publishedAt": "2026-02-28T14:13:27.000Z"
+      "id": "https://www.theguardian.com/money/2026/mar/05/hsbc-coventry-raise-rates-fixed-mortgages-iran-middle-east-crisis",
+      "title": "HSBC and Coventry raise rates on fixed mortgages in response to crisis in the Middle East",
+      "description": "Experts say the Iran war could cause an energy price shock that pushes up UK inflation, in turn forcing up interest rates HSBC and Coventry building society are the first big lende...",
+      "url": "https://www.theguardian.com/money/2026/mar/05/hsbc-coventry-raise-rates-fixed-mortgages-iran-middle-east-crisis",
+      "source": "The Guardian",
+      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
+      "publishedAt": "2026-03-05T13:34:09.000Z",
+      "tag": "Critical"
     },
     {
-      "id": "article-70687439",
-      "title": "India issues advisory to nationals in Israel and Iran; advises immediate registration with embassy in Tel Aviv",
-      "description": "More than 40,000 Indian nationals currently live and work in Israel; Embassy in Abu Dhabi also urged all Indian nationals “to avoid unnecessary travel”",
-      "url": "https://www.thehindu.com/news/national/exercise-utmost-caution-india-issues-advisory-as-israel-us-bombs-iran/article70687439.ece",
+      "id": "article-70705745",
+      "title": "Iran-Israel war LIVE: Iran has not yet elected new supreme leader, top Iranian official says",
+      "description": "U.S. will ‘bitterly regret’ attacking IRIS Dena, said Iranian Foreign Minister Seyed Abbas Araghchi",
+      "url": "https://www.thehindu.com/news/international/iran-israel-us-war-attacks-strikes-west-asia-lebanon-trump-netanyahu-live-updates/article70705745.ece",
       "source": "The Hindu",
       "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-02-28T14:05:08.000Z"
+      "publishedAt": "2026-03-05T13:33:11.000Z",
+      "tag": "Critical"
     },
     {
-      "id": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-war-mood.html",
-      "title": "As U.S. Bombs Tehran, Some Iranians Feel Abandoned by Their Leaders",
-      "description": "The government provided little advice in the days before the attacks or as the bombs fell, more than a dozen Iranians said in interviews.",
-      "url": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-war-mood.html",
+      "id": "article-70707512",
+      "title": "Explained | Iran’s political system",
+      "description": "Unlike the President, the Supreme Leader doesn’t have any fixed term. Since the 1979 revolution, Iran has had only two Supreme Leaders — Khomeini (who died in 1989) and Ayatollah A...",
+      "url": "https://www.thehindu.com/news/international/irans-political-system-explained/article70707512.ece",
+      "source": "The Hindu",
+      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
+      "publishedAt": "2026-03-05T13:30:26.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/03/04/us/politics/submarine-torpedo-iran-ship.html",
+      "title": "U.S. Submarine Launches Its First Torpedo in Combat Since World War II",
+      "description": "Since 1991, Navy subs have launched scores of cruise missiles in combat, but the torpedo attack off Sri Lanka is a return to form after 80 years.",
+      "url": "https://www.nytimes.com/2026/03/04/us/politics/submarine-torpedo-iran-ship.html",
       "source": "The New York Times",
       "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-02-28T14:05:03.000Z"
+      "publishedAt": "2026-03-05T13:27:31.000Z",
+      "tag": "Critical"
     },
     {
-      "id": "article-70687818",
-      "title": "Iran fires missiles at Gulf Arab states, one killed in Abu Dhabi",
-      "description": "State media in the United Arab Emirates said one person had been killed in Abu Dhabi, but ‌gave no details",
-      "url": "https://www.thehindu.com/news/international/iran-attack-gulf-states-bahrain-abu-dhabi-kuwait-jordan-qatar-february-28-2026/article70687818.ece",
-      "source": "The Hindu",
-      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-02-28T14:03:14.000Z"
-    },
-    {
-      "id": "https://www.hindustantimes.com/world-news/us-news/ayatollah-ali-khamenei-family-know-about-iranian-supreme-leaders-wife-children-and-grandkids-101772281298368.html",
-      "title": "Ayatollah Ali Khamenei family: Know about Iranian Supreme leader's wife, children and grandkids",
-      "description": "The US and Israel have launched strikes on Iran, targeting locations linked to Supreme Leader Ayatollah Khamenei, whose whereabouts are unclear.",
-      "url": "https://www.hindustantimes.com/world-news/us-news/ayatollah-ali-khamenei-family-know-about-iranian-supreme-leaders-wife-children-and-grandkids-101772281298368.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-02-28T13:56:17.000Z"
-    },
-    {
-      "id": "https://www.ndtv.com/world-news/flightradar24-crashes-as-users-track-flights-amid-us-israel-strikes-on-iran-11150420#publisher=newsstand",
-      "title": "Flightradar24 Crashes As Users Track Flights Amid US, Israel Strikes On Iran",
-      "description": "Several users received error messages while attempting to log in to the flight-tracking service Flightradar24 on Saturday.",
-      "url": "https://www.ndtv.com/world-news/flightradar24-crashes-as-users-track-flights-amid-us-israel-strikes-on-iran-11150420#publisher=newsstand",
-      "source": "NDTV",
-      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
-      "publishedAt": "2026-02-28T13:55:40.000Z"
-    },
-    {
-      "id": "https://www.ndtv.com/world-news/us-israel-iran-strikes-live-updates-burj-khalifa-evacuated-as-israel-iran-conflict-reaches-dubais-doorstep-11150407#publisher=newsstand",
-      "title": "Burj Khalifa Evacuated As Israel Iran Conflict Reaches Dubai's Doorstep",
-      "description": "Dubai's Burj Khalifa, the world's tallest building, was evacuated after explosions were heard across the city as Iran launched a retaliatory attack targeting US military locations...",
-      "url": "https://www.ndtv.com/world-news/us-israel-iran-strikes-live-updates-burj-khalifa-evacuated-as-israel-iran-conflict-reaches-dubais-doorstep-11150407#publisher=newsstand",
-      "source": "NDTV",
-      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
-      "publishedAt": "2026-02-28T13:52:34.000Z"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772281954",
-      "title": "World reacts to US, Israel attack on Iran, Tehran retaliation",
-      "description": "EU urges 'maximum restraint'; mediator Oman warns US 'not to get sucked in' further into conflict.",
-      "url": "https://www.aljazeera.com/news/2026/2/28/world-reacts-to-us-israel-attack-on-iran-tehran-retaliation?traffic_source=rss",
+      "id": "https://www.aljazeera.com/?t=1772710293",
+      "title": "Israel puts a target on the back of the rules-based order",
+      "description": "Israel suggests those seeking to enforce international law on Gaza will meet the fate of a destroyed Iranian warship.",
+      "url": "https://www.aljazeera.com/opinions/2026/3/5/israel-puts-a-target-on-the-back-of-the-rules-based-order?traffic_source=rss",
       "source": "Al Jazeera",
       "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-02-28T13:52:05.000Z"
+      "publishedAt": "2026-03-05T13:26:21.000Z",
+      "tag": "Update"
     },
     {
-      "id": "https://www.ndtv.com/world-news/israel-iran-attack-iran-news-explosions-heard-in-abu-dhabi-qatar-intercepts-iranian-missile-11149081#publisher=newsstand",
-      "title": "New Explosions In Dubai As Iran Attacks Abu Dhabi, Doha, Riyadh After US-Israel Strikes",
-      "description": "Iran on Saturday attacked the UAE's Abu Dhabi and Dubai, Qatar's Doha, and Saudi Arabia's Riyadh hours after Israel and the US conducted joint strikes on Iran, plunging the Middle...",
-      "url": "https://www.ndtv.com/world-news/israel-iran-attack-iran-news-explosions-heard-in-abu-dhabi-qatar-intercepts-iranian-missile-11149081#publisher=newsstand",
-      "source": "NDTV",
-      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
-      "publishedAt": "2026-02-28T13:45:08.000Z"
+      "id": "https://www.nytimes.com/2026/03/05/us/politics/trump-iran-war-presidential-power.html",
+      "title": "The Long March of Presidential Power That Led to War on Iran",
+      "description": "Presidents have sidestepped Congress to launch limited military strikes for decades. Trump’s decision to attack Iran is an aggressive escalation.",
+      "url": "https://www.nytimes.com/2026/03/05/us/politics/trump-iran-war-presidential-power.html",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-05T13:23:13.000Z",
+      "tag": "Critical"
     },
     {
-      "id": "https://www.hindustantimes.com/world-news/the-hypocrisy-is-breathtaking-trumps-obama-era-iran-warnings-return-as-he-chooses-war-amid-negotiations-101772283322090.html",
-      "title": "‘The hypocrisy is breathtaking': Trump's Obama-era Iran warnings return as he chooses war amid negotiations",
-      "description": "Iran's foreign affairs minister Araghchi pulled out an old Trump ‘tweet’ that said Obama would start a war to divert from his domestic political performance",
-      "url": "https://www.hindustantimes.com/world-news/the-hypocrisy-is-breathtaking-trumps-obama-era-iran-warnings-return-as-he-chooses-war-amid-negotiations-101772283322090.html",
+      "id": "https://indianexpress.com/?post_type=article&p=10566198",
+      "title": "Iran’s IRIS Dena sinking: What are international waters and how they differ from territorial waters and EEZ?",
+      "description": "",
+      "url": "https://indianexpress.com/article/world/us-news/irans-iris-dena-sinking-what-are-international-waters-and-how-they-differ-from-territorial-waters-and-eez-10566198/",
+      "source": "Indian Express",
+      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
+      "publishedAt": "2026-03-05T13:22:22.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "https://www.hindustantimes.com/world-news/as-us-escalates-war-with-iran-in-middle-east-where-do-g7-france-uk-italy-germany-japan-canada-stand-on-tensions-101772713056996.html",
+      "title": "As US escalates war with Iran in Middle East, where do other G7 nations stand?",
+      "description": "With the sinking of an Iranian warship, tensions have escalated, prompting G7 nations to up their defences as they brace for possible intervention.",
+      "url": "https://www.hindustantimes.com/world-news/as-us-escalates-war-with-iran-in-middle-east-where-do-g7-france-uk-italy-germany-japan-canada-stand-on-tensions-101772713056996.html",
       "source": "Hindustan Times",
       "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-02-28T13:44:22.000Z"
+      "publishedAt": "2026-03-05T13:19:12.000Z",
+      "tag": "Critical"
     },
     {
-      "id": "https://www.bbc.com/news/articles/cx2dyz6p3weo#0",
-      "title": "What we know about the joint US-Israel attack on Iran",
-      "description": "Iran has retaliated with a missile barrage towards Israel, while explosions have been heard in Qatar, Bahrain, Saudi Arabia, and the UAE.",
-      "url": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.hindustantimes.com/world-news/the-start-of-the-iran-war-was-determined-by-spying-success-101772716526553.html",
+      "title": "The start of the Iran war was determined by spying success",
+      "description": "Decapitation has long been a core part of war. Other countries have attempted it in recent years.",
+      "url": "https://www.hindustantimes.com/world-news/the-start-of-the-iran-war-was-determined-by-spying-success-101772716526553.html",
+      "source": "Hindustan Times",
+      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
+      "publishedAt": "2026-03-05T13:17:11.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.aljazeera.com/?t=1772715820",
+      "title": "Barrage of Iranian missiles target Qatar",
+      "description": "A wave of loud missile explosions was heard over the skies of Doha on Thursday.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/5/barrage-of-iranian-missiles-target-qatar?traffic_source=rss",
+      "source": "Al Jazeera",
+      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
+      "publishedAt": "2026-03-05T13:09:30.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "article-70706664",
+      "title": "Second Iranian ship near Sri Lankan waters, Minister tells country’s Parliament",
+      "description": "Minister Nalinda Jayatissa informs Parliament that the Iranian vessel was in the country’s Exclusive Economic Zone near the maritime boundary, and not in Sri Lanka’s territorial wa...",
+      "url": "https://www.thehindu.com/news/international/sri-lanka-says-second-iranian-ship-awaits-entry/article70706664.ece",
+      "source": "The Hindu",
+      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
+      "publishedAt": "2026-03-05T13:07:13.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/iran-israel-war-crude-oil-gas-supply-news-india-continues-russia-crude-import-as-iran-war-hurts-oil-supply-sources-11172917#publisher=newsstand",
+      "title": "India Continues Russia Crude Import As Iran War Hurts Oil Supply: Sources",
+      "description": "India is in a very comfortable situation regarding energy security, government sources have told NDTV Profit, stressing that there is no need to panic amid disruptions in the oil m...",
+      "url": "https://www.ndtv.com/world-news/iran-israel-war-crude-oil-gas-supply-news-india-continues-russia-crude-import-as-iran-war-hurts-oil-supply-sources-11172917#publisher=newsstand",
+      "source": "NDTV",
+      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
+      "publishedAt": "2026-03-05T13:01:53.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.theguardian.com/us-news/2026/mar/05/trump-administration-measles",
+      "title": "Trump administration is failing to address spread of measles, experts say",
+      "description": "As number of cases climbs past 1,000, experts say CDC is not taking obvious steps amid funding cuts Experts say that the Trump administration has failed to take obvious steps to co...",
+      "url": "https://www.theguardian.com/us-news/2026/mar/05/trump-administration-measles",
+      "source": "The Guardian",
+      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
+      "publishedAt": "2026-03-05T13:00:03.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "https://www.aljazeera.com/?t=1772690937",
+      "title": "Will the US benefit from the oil crisis sparked by the war on Iran?",
+      "description": "Attacks on energy sites in the Gulf and disruptions in the Strait of Hormuz give Western exporters a chance to profit.",
+      "url": "https://www.aljazeera.com/news/2026/3/5/will-the-us-benefit-from-the-oil-crisis-sparked-by-the-war-on-iran?traffic_source=rss",
+      "source": "Al Jazeera",
+      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
+      "publishedAt": "2026-03-05T12:59:04.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.theguardian.com/money/2026/mar/05/ministers-discuss-offset-energy-price-surges-iran-war",
+      "title": "Ministers discuss ways to offset energy price surges caused by Iran war",
+      "description": "Government’s claim to have lowered bills in jeopardy as households face £160 rise caused by soaring oil and gas prices Ministers are discussing the possibility of intervening to pr...",
+      "url": "https://www.theguardian.com/money/2026/mar/05/ministers-discuss-offset-energy-price-surges-iran-war",
+      "source": "The Guardian",
+      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
+      "publishedAt": "2026-03-05T12:54:39.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.theguardian.com/us-news/2026/mar/05/first-thing-airstrikes-iran-iraq-us-israel-kurds-pam-bondi-jeffrey-epstein-investigation",
+      "title": "Airstrikes hit Iran-Iraq border as US and Israeli plans to mobilise Kurds gathers pace | First Thing",
+      "description": "Experts warn backing Iran’s ethnic communities could increase the risk of a chaotic civil war. Plus, Pam Bondi subpoenaed by US House in Jeffrey Epstein investigation Don’t already...",
+      "url": "https://www.theguardian.com/us-news/2026/mar/05/first-thing-airstrikes-iran-iraq-us-israel-kurds-pam-bondi-jeffrey-epstein-investigation",
+      "source": "The Guardian",
+      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
+      "publishedAt": "2026-03-05T12:53:06.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/world/us/former-marines-anti-iran-war-protest-sparks-clash-did-senator-tim-sheehy-break-brian-mcginnis-arm/articleshow/129088711.cms",
+      "title": "Former Marine’s anti-Iran war protest sparks clash: Did Senator Tim Sheehy break Brian McGinnis’ arm?",
+      "description": "A protestor's anti-war outburst disrupted a Senate hearing, leading to a scuffle and injuries to three police officers. Brian McGinnis, identified as a Green Party candidate, was f...",
+      "url": "https://timesofindia.indiatimes.com/world/us/former-marines-anti-iran-war-protest-sparks-clash-did-senator-tim-sheehy-break-brian-mcginnis-arm/articleshow/129088711.cms",
+      "source": "Times of India",
+      "logoUrl": "https://static.toiimg.com/photo/47529300.cms",
+      "publishedAt": "2026-03-05T12:41:46.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "article-70707124",
+      "title": "Raisina Dialogue 2026: U.S. foreign policy is to advance our national interests, says Christopher Landau",
+      "description": "Deputy Secretary of State Christopher Landau emphasises the U.S. commitment to its national interests while advocating for a collaborative partnership with India",
+      "url": "https://www.thehindu.com/news/international/raisina-dialogue-2026-us-foreign-policy-is-to-advance-our-national-interests-says-christopher-landau/article70707124.ece",
+      "source": "The Hindu",
+      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
+      "publishedAt": "2026-03-05T12:41:06.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "https://indianexpress.com/?post_type=article&p=10566177",
+      "title": "US-Israel war on Iran: Country-wise list of casualties",
+      "description": "",
+      "url": "https://indianexpress.com/article/world/us-israel-war-on-iran-country-wise-list-of-casualties-10566177/",
+      "source": "Indian Express",
+      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
+      "publishedAt": "2026-03-05T12:40:19.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.aljazeera.com/?t=1772712840",
+      "title": "Gaza flotilla activists confronted by Tunisian police",
+      "description": "Global Sumud Flotilla activists say they were beaten by Tunisian police after being blocked from Sidi Bou Said port.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/5/gaza-flotilla-activists-confronted-by-tunisian-police?traffic_source=rss",
+      "source": "Al Jazeera",
+      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
+      "publishedAt": "2026-03-05T12:39:56.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "https://www.theguardian.com/world/2026/mar/05/azerbaijan-accuses-iran-drone-attack-airport-injured-people",
+      "title": "Azerbaijan accuses Iran of drone attack on airport that injured two people",
+      "description": "Tehran denies responsibility but strike raises prospect of US-Israel war on Iran spreading beyond Middle East Middle East crisis – live updates Azerbaijan has accused Iran of a dro...",
+      "url": "https://www.theguardian.com/world/2026/mar/05/azerbaijan-accuses-iran-drone-attack-airport-injured-people",
+      "source": "The Guardian",
+      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
+      "publishedAt": "2026-03-05T12:39:10.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/iran-israel-war-could-iran-war-trigger-new-refugee-wave-countries-most-likely-to-feel-it-first-11172770#publisher=newsstand",
+      "title": "Could Iran War Trigger New Refugee Wave? Countries Most Likely To Feel It First",
+      "description": "During the Syrian crisis, similar routes brought more than one million migrants into Europe in 2015, triggering political upheaval across several EU countries.",
+      "url": "https://www.ndtv.com/world-news/iran-israel-war-could-iran-war-trigger-new-refugee-wave-countries-most-likely-to-feel-it-first-11172770#publisher=newsstand",
+      "source": "NDTV",
+      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
+      "publishedAt": "2026-03-05T12:36:46.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.hindustantimes.com/world-news/chinese-professor-made-three-predictions-for-us-in-2024-two-turns-out-to-be-true-101772708005014.html",
+      "title": "Chinese professor made three predictions for US in 2024, two turns out to be true",
+      "description": "As tensions between Washington and Tehran continue to simmer, clips from his 2024 lecture are being widely shared online.",
+      "url": "https://www.hindustantimes.com/world-news/chinese-professor-made-three-predictions-for-us-in-2024-two-turns-out-to-be-true-101772708005014.html",
+      "source": "Hindustan Times",
+      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
+      "publishedAt": "2026-03-05T12:34:49.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "https://www.aljazeera.com/?t=1772709455",
+      "title": "Iranians get by as US, Israeli bombs rain down, internet blocked",
+      "description": "Officials say some water, electricity facilities damaged amid US-Israel bombing, but no widespread outages reported yet.",
+      "url": "https://www.aljazeera.com/news/2026/3/5/iranians-get-by-as-us-israeli-bombs-rain-down-internet-blocked?traffic_source=rss",
+      "source": "Al Jazeera",
+      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
+      "publishedAt": "2026-03-05T12:22:57.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/israel-downs-iran-fighter-plane-yak130.html",
+      "title": "Israel Says It Downed an Iranian Yak-130 Fighter Jet Over Tehran",
+      "description": "Israel said one of its F-35 fighter jets, known as an Adir, had downed another crewed plane over Tehran, the Iranian capital. Iran did not immediately comment.",
+      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/israel-downs-iran-fighter-plane-yak130.html",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-05T12:17:03.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/iran-israel-war-iran-denies-attacking-azerbaijan-baku-says-strikes-wont-go-unanswered-11172495#publisher=newsstand",
+      "title": "Iran Denies Attacking Azerbaijan, Baku Says Strikes 'Won't Go Unanswered'",
+      "description": "Azerbaijan said it was preparing to retaliate after two people were wounded on Thursday in Iranian drone hits on an airport and near a school.",
+      "url": "https://www.ndtv.com/world-news/iran-israel-war-iran-denies-attacking-azerbaijan-baku-says-strikes-wont-go-unanswered-11172495#publisher=newsstand",
+      "source": "NDTV",
+      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
+      "publishedAt": "2026-03-05T12:12:52.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/us-israel-iran-war-2-indians-killed-in-iran-attack-on-oil-tanker-skylight-in-strait-of-hormuz-near-oman-port-11171213#publisher=newsstand",
+      "title": "2 Indians Killed In Iran Attack On Oil Tanker 'Skylight' In Strait Of Hormuz",
+      "description": "The Palau-flagged oil tanker was struck off Oman's Musandam Peninsula in an attack that followed drone strikes on the country's Duqm port.",
+      "url": "https://www.ndtv.com/world-news/us-israel-iran-war-2-indians-killed-in-iran-attack-on-oil-tanker-skylight-in-strait-of-hormuz-near-oman-port-11171213#publisher=newsstand",
+      "source": "NDTV",
+      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
+      "publishedAt": "2026-03-05T12:09:59.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/iran-israel-war-shahed-drones-patriot-missiles-what-are-shahed-drones-shahed-136-drone-specs-cost-shahed-drone-iran-11172389#publisher=newsstand",
+      "title": "How Iran's $20,000 Shahed Drones Swarm Past $4 Million US Missiles",
+      "description": "Fuel-efficient engine + modest radar evasion capacities + a 40-50kg warhead make Iran's Shahed-series 'kamikaze' drones a low-cost terror that can be mass produced for US$20,000 -...",
+      "url": "https://www.ndtv.com/world-news/iran-israel-war-shahed-drones-patriot-missiles-what-are-shahed-drones-shahed-136-drone-specs-cost-shahed-drone-iran-11172389#publisher=newsstand",
+      "source": "NDTV",
+      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
+      "publishedAt": "2026-03-05T12:04:30.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/us-israel-iran-war-live-updates-dubai-news-middle-east-crisis-iran-live-missile-attacks-drone-strikes-oil-market-news-ayatollah-ali-khamenei-death-11166125#publisher=newsstand",
+      "title": "Israel-Iran War Live Updates: After India Condoles Khamenei's Death, Jaishankar Speaks To Araghchi",
+      "description": "Israel-Iran War live updates: Iran launched a new wave of attacks Thursday morning at Israeli and American bases and threatened that the United States would \"bitterly regret\" torpe...",
+      "url": "https://www.ndtv.com/world-news/us-israel-iran-war-live-updates-dubai-news-middle-east-crisis-iran-live-missile-attacks-drone-strikes-oil-market-news-ayatollah-ali-khamenei-death-11166125#publisher=newsstand",
+      "source": "NDTV",
+      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
+      "publishedAt": "2026-03-05T12:02:22.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.aljazeera.com/?t=1772711509",
+      "title": "Iran, The US, and the World Cup",
+      "description": "The 2026 World Cup is nearly here, but Iran’s spot in the tournament may be in doubt. Can sport ever be neutral?",
+      "url": "https://www.aljazeera.com/video/game-theory/2026/3/5/aje-onl-iran-wc_v5-050326?traffic_source=rss",
+      "source": "Al Jazeera",
+      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
+      "publishedAt": "2026-03-05T12:00:37.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/israel-al-aqsa-mosque-ramadan-jerusalem.html",
+      "title": "Israel Closes Al Aqsa Mosque at Ramadan, Citing Wartime Safety Concerns",
+      "description": "The temporary measure, during the holy Muslim fasting month, follows tensions as Jewish activists increasingly encroach on the contested religious site.",
+      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/israel-al-aqsa-mosque-ramadan-jerusalem.html",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-05T11:59:23.000Z",
+      "tag": "Update"
+    },
+    {
+      "id": "article-70702914",
+      "title": "Iran-Israel war: A day‑by‑day rundown of the escalating crisis",
+      "description": "A joint U.S.-Israel attack on Iran and the killing of Supreme Leader Ayatollah Ali Khamenei have plunged West Asia into a fast‑spreading war, with Tehran and its allies launching r...",
+      "url": "https://www.thehindu.com/news/international/iran-israel-war-united-states-west-asia-gulf-middle-east-escalating-crisis/article70702914.ece",
+      "source": "The Hindu",
+      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
+      "publishedAt": "2026-03-05T11:44:19.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/iran-israel-war-historic-first-prsm-missiles-launched-by-us-during-operation-epic-fury-11172366#publisher=newsstand",
+      "title": "\"Historic First\": PrSM Missiles Launched By US During Operation Epic Fury",
+      "description": "The United States military has used Lockheed Martin-made long-range Precision Strike Missiles (PrSMs) in combat for the first time as part of Operation Epic Fury against Iran.",
+      "url": "https://www.ndtv.com/world-news/iran-israel-war-historic-first-prsm-missiles-launched-by-us-during-operation-epic-fury-11172366#publisher=newsstand",
+      "source": "NDTV",
+      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
+      "publishedAt": "2026-03-05T11:38:50.000Z",
+      "tag": "Critical"
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/c2k88y1147jo#0",
+      "title": "Iran targets headquarters of Iranian Kurdish forces in Iraq",
+      "description": "The Iranian military's strikes come amid speculation that the US wants Iranian Kurdish groups to join its conflict with Iran.",
+      "url": "https://www.bbc.com/news/articles/c2k88y1147jo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "logoUrl": "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
-      "publishedAt": "2026-02-28T13:41:42.000Z"
+      "publishedAt": "2026-03-05T11:35:09.000Z",
+      "tag": "Critical"
     },
     {
-      "id": "https://www.ndtv.com/world-news/israel-iran-attack-iran-attacks-dubai-dubai-news-iran-attacks-abu-dhabi-dubai-international-airport-worlds-busiest-shuts-down-amid-iran-strikes-11150162#publisher=newsstand",
-      "title": "Dubai International Airport, World's Busiest, Shuts Down Amid Iran Strikes",
-      "description": "Dubai International Airport, the world's busiest international hub, has suspended all flight operations indefinitely following a wave of Iranian missile strikes across Gulf Arab st...",
-      "url": "https://www.ndtv.com/world-news/israel-iran-attack-iran-attacks-dubai-dubai-news-iran-attacks-abu-dhabi-dubai-international-airport-worlds-busiest-shuts-down-amid-iran-strikes-11150162#publisher=newsstand",
-      "source": "NDTV",
-      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
-      "publishedAt": "2026-02-28T13:39:09.000Z"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772285497",
-      "title": "Iranian deputy minister of foreign Affairs condemns US-Israeli attacks",
-      "description": "Iran’s deputy minister of foreign affairs condemned the US-Israeli strikes.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/28/iranian-deputy-minister-of-foreign-affairs-condemns-us-israeli-attacks?traffic_source=rss",
+      "id": "https://www.aljazeera.com/?t=1772710038",
+      "title": "‘It’s up to the United States Congress, not any president, to declare war’",
+      "description": "'It's up to the United States Congress, not any president, to declare war’",
+      "url": "https://www.aljazeera.com/video/quotable/2026/3/5/its-up-to-the-united-states-congress-not-any-president-to-declare?traffic_source=rss",
       "source": "Al Jazeera",
       "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-02-28T13:35:03.000Z"
+      "publishedAt": "2026-03-05T11:29:40.000Z",
+      "tag": "Critical"
     },
     {
-      "id": "https://www.ndtv.com/world-news/iran-news-iran-israel-news-us-israel-iran-war-video-man-yells-side-ho-jaa-as-missile-falls-from-sky-in-qatar-blows-up-11150312#publisher=newsstand",
-      "title": "Video: Man Yells \"Side Ho Jaa\" As Missile Falls From Sky In Qatar, Blows Up",
-      "description": "Qatar, home to the region's largest US military base, Al Udeid, saw several missiles being fired at it by Iran on Saturday.",
-      "url": "https://www.ndtv.com/world-news/iran-news-iran-israel-news-us-israel-iran-war-video-man-yells-side-ho-jaa-as-missile-falls-from-sky-in-qatar-blows-up-11150312#publisher=newsstand",
+      "id": "https://www.ndtv.com/opinion/us-iran-israel-war-did-trump-attack-iran-because-it-had-nuclear-weapons-or-because-it-didnt-11172170#publisher=newsstand",
+      "title": "Opinion: Opinion | A Dark Truth: Why Iran, Ukraine Get Bombed, But Pak, Israel, N Korea Don't",
+      "description": "With the Iran blitz, the message to smaller and military states is shaping up to be this: 'build the damn bomb - if not legally, then the way Pakistan did in the 1970s'.",
+      "url": "https://www.ndtv.com/opinion/us-iran-israel-war-did-trump-attack-iran-because-it-had-nuclear-weapons-or-because-it-didnt-11172170#publisher=newsstand",
       "source": "NDTV",
       "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
-      "publishedAt": "2026-02-28T13:32:28.000Z"
-    },
-    {
-      "id": "https://www.hindustantimes.com/trending/explosions-just-10-km-away-from-home-indian-man-in-dubai-shares-chilling-account-amid-iran-retaliation-101772284199017.html",
-      "title": "‘Explosions just 10 km away from home’: Indian man in Dubai shares chilling account amid Iran retaliation",
-      "description": "Indian man in Dubai reported explosions after Iran’s retaliation following US Israel strikes on Iran.",
-      "url": "https://www.hindustantimes.com/trending/explosions-just-10-km-away-from-home-indian-man-in-dubai-shares-chilling-account-amid-iran-retaliation-101772284199017.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-02-28T13:30:22.000Z"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/world/us/ice-cancelled-indian-origin-students-visa-over-dismissed-traffic-ticket-court-calls-move-unlawful/articleshow/128886993.cms",
-      "title": "ICE cancelled Indian-origin student’s visa over dismissed traffic ticket, court calls move unlawful",
-      "description": "A US federal court has ruled that Immigration and Customs Enforcement (ICE) unlawfully terminated an Indian student's visa status over a dismissed traffic ticket. The judge critici...",
-      "url": "https://timesofindia.indiatimes.com/world/us/ice-cancelled-indian-origin-students-visa-over-dismissed-traffic-ticket-court-calls-move-unlawful/articleshow/128886993.cms",
-      "source": "Times of India",
-      "logoUrl": "https://static.toiimg.com/photo/47529300.cms",
-      "publishedAt": "2026-02-28T13:28:30.000Z"
-    },
-    {
-      "id": "article-70688056",
-      "title": "Iran strikes U.S. bases: Complete list of bases under attack",
-      "description": "Iran struck U.S. military bases across six Middle Eastern countries after U.S.-Israel joint operation. Here’s the full list of locations targeted",
-      "url": "https://www.thehindu.com/news/international/iran-strikes-us-bases-complete-list-of-bases-under-attack/article70688056.ece",
-      "source": "The Hindu",
-      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-02-28T13:22:19.000Z"
-    },
-    {
-      "id": "https://www.hindustantimes.com/world-news/us-news/what-is-the-irgc-and-how-did-it-start-trump-tells-elite-wing-of-irans-military-to-surrender-or-face-death-101772279847429.html",
-      "title": "What is the IRGC and how did it start? Trump issues stark ultimatum to Iranian forces, ‘Surrender or face death’",
-      "description": "Donald Trump labeled the attacks on Iran a noble mission, asserting they are crucial to counter Tehran's nuclear ambitions.",
-      "url": "https://www.hindustantimes.com/world-news/us-news/what-is-the-irgc-and-how-did-it-start-trump-tells-elite-wing-of-irans-military-to-surrender-or-face-death-101772279847429.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-02-28T13:22:05.000Z"
-    },
-    {
-      "id": "https://www.hindustantimes.com/world-news/us-news/us-iran-conflict-update-world-war-3-predictions-by-baba-vanga-nostradamus-surface-after-trumps-latest-military-strikes-101772282909214.html",
-      "title": "US-Iran conflict: Chilling World War 3 predictions surface after Trump's latest military strikes",
-      "description": "Amid rising tensions, social media users began sharing references to the predictions of mystics Baba Vanga and Nostradamus.",
-      "url": "https://www.hindustantimes.com/world-news/us-news/us-iran-conflict-update-world-war-3-predictions-by-baba-vanga-nostradamus-surface-after-trumps-latest-military-strikes-101772282909214.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-02-28T13:20:53.000Z"
-    },
-    {
-      "id": "https://www.ndtv.com/world-news/iran-us-tensions-live-updates-explosion-rocks-iran-amid-heightened-nuclear-tensions-with-us-iran-israel-tensions-tehran-tel-aviv-tensions-11148388#publisher=newsstand",
-      "title": "US-Israel Attacks Iran LIVE Updates: 51 Students Die In Strike On Girls' School By US-Israel, Says Iran",
-      "description": "US-Israel Attacks Iran LIVE Updates: Israel launched a daylight attack Saturday on Iran's capital, with a cloud of smoke rising from the city's downtown. The apparent strike happen...",
-      "url": "https://www.ndtv.com/world-news/iran-us-tensions-live-updates-explosion-rocks-iran-amid-heightened-nuclear-tensions-with-us-iran-israel-tensions-tehran-tel-aviv-tensions-11148388#publisher=newsstand",
-      "source": "NDTV",
-      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
-      "publishedAt": "2026-02-28T13:20:21.000Z"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-attacks-reaction.html",
-      "title": "Here’s What World Leaders Are Saying About the U.S.-Led Attack on Iran",
-      "description": "Governments around the world urged restraint after the United States and Israel launched a major assault, and Iran vowed retaliation.",
-      "url": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-attacks-reaction.html",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-02-28T13:16:08.000Z"
-    },
-    {
-      "id": "https://indianexpress.com/?post_type=article&p=10557805",
-      "title": "Trump announces ‘major combat operations in Iran’: Read full speech",
-      "description": "",
-      "url": "https://indianexpress.com/article/world/trump-announces-major-combat-operations-iran-take-over-government-speech-transcript-10557805/",
-      "source": "Indian Express",
-      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
-      "publishedAt": "2026-02-28T13:14:01.000Z"
+      "publishedAt": "2026-03-05T11:29:10.000Z",
+      "tag": "Critical"
     }
   ],
-  "updatedAt": "2026-02-28T15:18:23.566Z",
+  "updatedAt": "2026-03-05T14:00:29.250Z",
   "refreshIntervalMs": 300000,
+  "feedHealth": [
+    {
+      "source": "BBC",
+      "status": "ok",
+      "articleCount": 32
+    },
+    {
+      "source": "The New York Times",
+      "status": "ok",
+      "articleCount": 42
+    },
+    {
+      "source": "The Guardian",
+      "status": "ok",
+      "articleCount": 17
+    },
+    {
+      "source": "Al Jazeera",
+      "status": "ok",
+      "articleCount": 18
+    },
+    {
+      "source": "The Hindu",
+      "status": "ok",
+      "articleCount": 65
+    },
+    {
+      "source": "Indian Express",
+      "status": "ok",
+      "articleCount": 128
+    },
+    {
+      "source": "NDTV",
+      "status": "ok",
+      "articleCount": 13
+    },
+    {
+      "source": "Times of India",
+      "status": "ok",
+      "articleCount": 5
+    },
+    {
+      "source": "Hindustan Times",
+      "status": "ok",
+      "articleCount": 47
+    }
+  ],
   "filters": {
     "language": "English",
     "keywords": [
       "Israel",
       "Iran",
-      "USA"
+      "USA",
+      "Gaza",
+      "Hezbollah",
+      "Hamas"
     ],
     "outlets": [
       "BBC",
