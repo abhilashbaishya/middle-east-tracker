@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { IBM_Plex_Sans, IBM_Plex_Sans_Condensed } from "next/font/google";
-import localFont from "next/font/local";
 
 import "./globals.css";
 
@@ -31,13 +30,6 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
-const zodiak = localFont({
-  src: "../../public/fonts/zodiak-regular.woff2",
-  variable: "--font-zodiak",
-  weight: "400",
-  display: "swap",
-});
-
 export const metadata: Metadata = {
   title: "Middle East Tracker",
   description:
@@ -51,8 +43,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://api.fontshare.com" />
+        <link
+          href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
-        className={`${ibmPlexSans.variable} ${ibmPlexSansCondensed.variable} ${geist.variable} ${geistMono.variable} ${zodiak.variable} antialiased`}
+        className={`${ibmPlexSans.variable} ${ibmPlexSansCondensed.variable} ${geist.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
