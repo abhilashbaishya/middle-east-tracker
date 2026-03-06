@@ -50,10 +50,10 @@ function formatPublishedTime(isoString: string): string {
 }
 
 const TAG_STYLES: Record<ArticleTag, string> = {
-  Critical: "bg-red-100 text-red-700",
-  Developing: "bg-amber-100 text-amber-700",
-  Update: "bg-gray-100 text-gray-600",
-  Context: "bg-blue-100 text-blue-700",
+  Critical: "bg-red-950 text-red-400",
+  Developing: "bg-amber-950 text-amber-400",
+  Update: "bg-zinc-800 text-zinc-400",
+  Context: "bg-blue-950 text-blue-400",
 };
 
 function TagPill({ tag }: { tag: ArticleTag }) {
