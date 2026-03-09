@@ -68,7 +68,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
   return (
     <article className="card-enter grid items-start gap-3 pt-10 pb-10 first:pt-0 lg:grid-cols-[1fr_16ch] lg:gap-6">
       <div>
-        <h2 className="font-display text-[32px] leading-[1.16] tracking-[-0.01em] text-[var(--headline)]">
+        <h2 className="font-display text-[32px] leading-[1.16] tracking-[-0.01em] text-[var(--headline)] [text-wrap:balance]">
           <a
             href={article.url}
             target="_blank"
@@ -84,7 +84,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
         {article.tag && <div className="mt-3"><TagPill tag={article.tag} /></div>}
       </div>
 
-      <div className="flex gap-2 font-sans text-[0.875rem] text-[var(--muted)] lg:flex-col lg:items-end lg:gap-0 lg:text-[1rem]">
+      <div className="flex gap-2 font-mono text-[14px] uppercase text-[var(--muted)] lg:flex-col lg:items-end lg:gap-0">
         <span>{article.source}</span>
         <span className="lg:hidden">·</span>
         <span>{formatPublishedDate(article.publishedAt)}</span>
