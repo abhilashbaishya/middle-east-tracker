@@ -68,7 +68,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
   return (
     <article className="card-enter grid items-start gap-3 pt-10 pb-10 first:pt-0 lg:grid-cols-[1fr_16ch] lg:gap-6">
       <div>
-        <h2 className="font-display text-[1.125rem] leading-[1.35] tracking-[-0.01em] text-[var(--headline)] sm:text-[1.25rem] lg:text-[1.5rem]">
+        <h2 className="font-display text-[32px] leading-[1.16] tracking-[-0.01em] text-[var(--headline)]">
           <a
             href={article.url}
             target="_blank"
