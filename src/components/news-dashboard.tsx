@@ -78,7 +78,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
             {article.title}
           </a>
         </h2>
-        <p className="mt-2 max-w-2xl font-sans text-[0.875rem] leading-[1.55] text-[var(--description)]">
+        <p className="mt-2 max-w-2xl font-sans text-[16px] leading-[1.55] text-[var(--description)]">
           {article.description || "Open the story for full details."}
         </p>
         {article.tag && <div className="mt-3"><TagPill tag={article.tag} /></div>}
