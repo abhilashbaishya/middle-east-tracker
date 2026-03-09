@@ -66,46 +66,28 @@ function TagPill({ tag }: { tag: ArticleTag }) {
 
 function NewsRow({ article }: { article: NewsArticle }) {
   return (
-    <article className="card-enter grid gap-5 py-10 md:grid-cols-[170px_1fr] md:gap-12">
-      <div className="pt-1">
-        {article.tag && <div className="mb-4"><TagPill tag={article.tag} /></div>}
-        <div className="space-y-0.5">
-          <p className="font-sans text-[clamp(.78rem,.74rem+.16vw,.9rem)] text-[var(--muted-light)]">
-            {formatPublishedTime(article.publishedAt)}
-          </p>
-          <p className="font-sans text-[clamp(.8rem,.76rem+.18vw,.95rem)] text-[var(--muted)]">
-            {formatPublishedDate(article.publishedAt)}
-          </p>
-          <p className="font-sans text-[clamp(.8rem,.76rem+.18vw,.95rem)] text-[var(--muted)]">
-            {article.source}
-          </p>
-        </div>
-      </div>
-
-      <div className="max-w-5xl">
-        <h2 className="mb-3 font-display text-[32px] leading-[1.16] tracking-[-0.01em] text-[var(--headline)] [text-wrap:balance]">
+    <article className="card-enter grid items-start gap-3 pt-10 pb-10 first:pt-0 lg:grid-cols-[1fr_16ch] lg:gap-6">
+      <div>
+        <h2 className="font-display text-[1.125rem] leading-[1.35] tracking-[-0.01em] text-[var(--headline)] sm:text-[1.25rem] lg:text-[1.5rem]">
           <a
             href={article.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer underline decoration-transparent underline-offset-4 transition hover:text-[var(--headline-hover)] hover:decoration-[var(--headline-hover)] [text-wrap:balance]"
+            className="cursor-pointer underline decoration-transparent underline-offset-4 transition hover:text-[var(--headline-hover)] hover:decoration-[var(--headline-hover)]"
           >
             {article.title}
           </a>
         </h2>
-
-        <p className="mb-4 max-w-4xl font-sans text-[16px] leading-[1.55] text-[var(--description)] [text-wrap:balance]">
+        <p className="mt-2 max-w-2xl font-sans text-[0.875rem] leading-[1.55] text-[var(--description)]">
           {article.description || "Open the story for full details."}
         </p>
+        {article.tag && <div className="mt-3"><TagPill tag={article.tag} /></div>}
+      </div>
 
-        <a
-          href={article.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 font-sans text-[16px] font-medium text-[var(--cta-text)] underline decoration-[var(--cta-underline)] underline-offset-4 transition hover:text-[var(--headline)] hover:decoration-[var(--headline)]"
-        >
-          Read more
-        </a>
+      <div className="flex gap-2 font-sans text-[0.875rem] text-[var(--muted)] lg:flex-col lg:items-end lg:gap-0 lg:text-[1rem]">
+        <span>{article.source}</span>
+        <span className="lg:hidden">·</span>
+        <span>{formatPublishedDate(article.publishedAt)}</span>
       </div>
     </article>
   );
@@ -149,17 +131,17 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
       <header className="mb-8 border-b border-[var(--divider)] pb-8">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div>
-            <h1 className="font-display text-4xl leading-[1.03] tracking-[-0.01em] text-[var(--headline)] sm:text-[3.2rem] [text-wrap:balance]">
+            <h1 className="font-display text-[2.25rem] leading-[1.05] tracking-[-0.02em] text-[var(--headline)] sm:text-[3.375rem] lg:text-[4.5rem] [text-wrap:balance]">
               Middle East Tracker
             </h1>
-            <p className="mt-3 max-w-2xl text-base text-[var(--subtle)] [text-wrap:balance]">
+            <p className="mt-4 max-w-2xl font-sans text-[0.875rem] text-[var(--subtle)] sm:text-base [text-wrap:balance]">
               Aggregating coverage from 9 international and Indian newsrooms — tracking the Israel-Palestine conflict, Iran tensions, and U.S. foreign policy in real time.
             </p>
           </div>
 
-          <div className="flex flex-col gap-3 sm:items-end">
-            <p className="font-mono text-xs text-[var(--muted)]">Updated {formatUpdatedLabel(payload.updatedAt)}</p>
-            <p className="font-mono text-xs text-[var(--subtle)]">Auto-updated every ~5 minutes</p>
+          <div className="flex flex-col sm:items-end">
+            <p className="font-mono text-xs uppercase text-[var(--muted)]">Updated {formatUpdatedLabel(payload.updatedAt)}</p>
+            <p className="font-mono text-xs uppercase text-[var(--subtle)]">Auto-updated every ~5 minutes</p>
           </div>
         </div>
 
