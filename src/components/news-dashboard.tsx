@@ -116,9 +116,33 @@ function NewsRow({ article }: { article: NewsArticle }) {
           href={article.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden font-sans text-[14px] normal-case text-[var(--cta-text)] underline decoration-[var(--cta-underline)] underline-offset-4 transition hover:text-[var(--headline)] hover:decoration-[var(--headline)] lg:inline-flex"
+          className="group hidden lg:inline-flex"
+          aria-label="Read more"
         >
-          Read more
+          <svg className="group-hover:hidden" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 0.5C24.5604 0.5 31.5 7.43959 31.5 16C31.5 24.5604 24.5604 31.5 16 31.5C7.43959 31.5 0.5 24.5604 0.5 16C0.5 7.43959 7.43959 0.5 16 0.5Z" stroke="#71717a" strokeWidth="1"/>
+            <g clipPath="url(#clip0_default)">
+              <path d="M10.7998 21.2001L20.3998 11.6001" stroke="#F3F4F5" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M12.5996 11.6001H20.3996V19.4001" stroke="#F3F4F5" strokeLinecap="round" strokeLinejoin="round"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_default">
+                <rect width="19.2" height="19.2" fill="white" transform="translate(6 6.80005)"/>
+              </clipPath>
+            </defs>
+          </svg>
+          <svg className="hidden group-hover:block" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="white"/>
+            <g clipPath="url(#clip0_hover)">
+              <path d="M10.7998 21.2001L20.3998 11.6001" stroke="#040810" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M12.5996 11.6001H20.3996V19.4001" stroke="#040810" strokeLinecap="round" strokeLinejoin="round"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_hover">
+                <rect width="19.2" height="19.2" fill="white" transform="translate(6 6.80005)"/>
+              </clipPath>
+            </defs>
+          </svg>
         </a>
       </div>
     </article>
