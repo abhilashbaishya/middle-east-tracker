@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 import type { ArticleTag, NewsArticle, NewsResponse } from "@/lib/news";
 
@@ -64,10 +64,32 @@ function TagPill({ tag }: { tag: ArticleTag }) {
   );
 }
 
+function useScrollReveal() {
+  const ref = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          el.classList.add("is-visible");
+          observer.unobserve(el);
+        }
+      },
+      { threshold: 0.1 },
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+  return ref;
+}
+
 function NewsRow({ article }: { article: NewsArticle }) {
+  const ref = useScrollReveal();
   return (
-    <article className="card-enter grid items-start gap-3 pt-10 pb-10 first:pt-0 lg:grid-cols-[1fr_16ch] lg:gap-6">
+    <article ref={ref} className="card-enter grid items-start gap-3 pt-10 pb-10 first:pt-0 lg:grid-cols-[1fr_16ch] lg:gap-6">
       <div>
+        {article.tag && <div className="mb-2 lg:hidden"><TagPill tag={article.tag} /></div>}
         <h2 className="font-display text-[22px] leading-[1.2] tracking-[-0.01em] text-[var(--headline)] sm:text-[26px] lg:text-[32px] lg:leading-[1.16] [text-wrap:balance]">
           <a
             href={article.url}
@@ -81,7 +103,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
         <p className="mt-2 max-w-2xl font-sans text-[14px] leading-[1.55] text-[var(--description)] sm:text-[15px] lg:text-[16px]">
           {article.description || "Open the story for full details."}
         </p>
-        {article.tag && <div className="mt-3"><TagPill tag={article.tag} /></div>}
+        {article.tag && <div className="mt-3 hidden lg:block"><TagPill tag={article.tag} /></div>}
       </div>
 
       <div className="flex gap-2 font-mono text-[11px] uppercase text-[var(--muted)] sm:text-[12px] lg:flex-col lg:items-end lg:justify-between lg:gap-0 lg:self-stretch lg:text-[14px]">
