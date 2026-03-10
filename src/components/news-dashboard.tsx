@@ -68,26 +68,36 @@ function NewsRow({ article }: { article: NewsArticle }) {
   return (
     <article className="card-enter grid items-start gap-3 pt-10 pb-10 first:pt-0 lg:grid-cols-[1fr_16ch] lg:gap-6">
       <div>
-        <h2 className="font-display text-[32px] leading-[1.16] tracking-[-0.01em] text-[var(--headline)] [text-wrap:balance]">
+        <h2 className="font-display text-[22px] leading-[1.2] tracking-[-0.01em] text-[var(--headline)] sm:text-[26px] lg:text-[32px] lg:leading-[1.16] [text-wrap:balance]">
           <a
             href={article.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer underline decoration-transparent underline-offset-4 transition hover:text-[var(--headline-hover)] hover:decoration-[var(--headline-hover)]"
+            className="cursor-pointer underline decoration-transparent underline-offset-4 transition active:text-[var(--headline-hover)] active:decoration-[var(--headline-hover)] hover:text-[var(--headline-hover)] hover:decoration-[var(--headline-hover)]"
           >
             {article.title}
           </a>
         </h2>
-        <p className="mt-2 max-w-2xl font-sans text-[16px] leading-[1.55] text-[var(--description)]">
+        <p className="mt-2 max-w-2xl font-sans text-[14px] leading-[1.55] text-[var(--description)] sm:text-[15px] lg:text-[16px]">
           {article.description || "Open the story for full details."}
         </p>
         {article.tag && <div className="mt-3"><TagPill tag={article.tag} /></div>}
       </div>
 
-      <div className="flex gap-2 font-mono text-[14px] uppercase text-[var(--muted)] lg:flex-col lg:items-end lg:gap-0">
-        <span>{article.source}</span>
-        <span className="lg:hidden">·</span>
-        <span>{formatPublishedDate(article.publishedAt)}</span>
+      <div className="flex gap-2 font-mono text-[11px] uppercase text-[var(--muted)] sm:text-[12px] lg:flex-col lg:items-end lg:justify-between lg:gap-0 lg:self-stretch lg:text-[14px]">
+        <div className="lg:text-right">
+          <span>{article.source}</span>
+          <span className="lg:hidden"> · </span>
+          <span className="lg:block">{formatPublishedDate(article.publishedAt)}</span>
+        </div>
+        <a
+          href={article.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden font-sans text-[14px] normal-case text-[var(--cta-text)] underline decoration-[var(--cta-underline)] underline-offset-4 transition hover:text-[var(--headline)] hover:decoration-[var(--headline)] lg:inline-flex"
+        >
+          Read more
+        </a>
       </div>
     </article>
   );
