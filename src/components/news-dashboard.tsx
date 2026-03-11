@@ -95,7 +95,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
             href={article.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer underline decoration-transparent underline-offset-4 transition active:text-[var(--headline-hover)] active:decoration-[var(--headline-hover)] hover:text-[var(--headline-hover)] hover:decoration-[var(--headline-hover)]"
+            className="cursor-pointer rounded-sm underline decoration-transparent underline-offset-4 transition-[color,text-decoration-color] active:text-[var(--headline-hover)] active:decoration-[var(--headline-hover)] hover:text-[var(--headline-hover)] hover:decoration-[var(--headline-hover)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
           >
             {article.title}
           </a>
@@ -111,7 +111,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
           <span className="inline-flex items-center gap-1.5">
             {article.source}
             {article.paywalled && (
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2Zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2ZM9 8V6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9Z"/>
               </svg>
             )}
@@ -123,10 +123,10 @@ function NewsRow({ article }: { article: NewsArticle }) {
           href={article.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="group hidden lg:inline-flex"
+          className="group hidden rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] lg:inline-flex"
           aria-label="Read more"
         >
-          <svg className="group-hover:hidden" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className="group-hover:hidden" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M16 0.5C24.5604 0.5 31.5 7.43959 31.5 16C31.5 24.5604 24.5604 31.5 16 31.5C7.43959 31.5 0.5 24.5604 0.5 16C0.5 7.43959 7.43959 0.5 16 0.5Z" stroke="#71717a" strokeWidth="1"/>
             <g clipPath="url(#clip0_default)">
               <path d="M10.7998 21.2001L20.3998 11.6001" stroke="#F3F4F5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -138,7 +138,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
               </clipPath>
             </defs>
           </svg>
-          <svg className="hidden group-hover:block" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className="hidden group-hover:block" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <circle cx="16" cy="16" r="16" fill="white"/>
             <g clipPath="url(#clip0_hover)">
               <path d="M10.7998 21.2001L20.3998 11.6001" stroke="#040810" strokeLinecap="round" strokeLinejoin="round"/>
