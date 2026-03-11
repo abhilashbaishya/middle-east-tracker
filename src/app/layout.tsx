@@ -42,6 +42,7 @@ export const metadata: Metadata = {
   title: "Middle East Tracker",
   description:
     "Live news tracker for major English outlets covering Israel, Iran, and USA conflict updates.",
+  themeColor: "#131314",
 };
 
 export default function RootLayout({
@@ -50,7 +51,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ colorScheme: "dark" }}>
       <body
         className={`${ibmPlexSans.variable} ${ibmPlexSansCondensed.variable} ${geist.variable} ${geistMono.variable} ${uncutSans.variable} antialiased`}
       >
