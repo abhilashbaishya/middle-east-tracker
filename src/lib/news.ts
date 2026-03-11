@@ -6,6 +6,7 @@ import {
   FEEDS,
   FILTER_KEYWORDS,
   MAX_ARTICLES,
+  PAYWALLED_SOURCES,
   REFRESH_INTERVAL_MS,
   type FeedSource,
 } from "./config";
@@ -24,6 +25,7 @@ export type NewsArticle = {
   logoUrl: string;
   publishedAt: string;
   tag: ArticleTag;
+  paywalled: boolean;
 };
 
 export type FeedHealth = {
@@ -174,6 +176,7 @@ async function fetchFromFeed(feed: FeedSource): Promise<NewsArticle[]> {
         logoUrl: feed.logoUrl,
         publishedAt,
         tag: classifyArticle(title, description),
+        paywalled: PAYWALLED_SOURCES.has(feed.source),
       } satisfies NewsArticle;
     })
     .filter((item): item is NewsArticle => item !== null);

@@ -95,3 +95,9 @@ export const BROAD_US_TERMS = [
 export const TRACKING_TERMS = [...CONFLICT_TERMS, ...BROAD_US_TERMS] as const;
 
 export const FILTER_KEYWORDS = ["Israel", "Iran", "USA", "Gaza", "Hezbollah", "Hamas"];
+
+export const PAYWALLED_SOURCES = new Set([
+  "The New York Times",
+  "The Hindu",
+  "Times of India",
+]);

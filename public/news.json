@@ -1,458 +1,500 @@
 {
   "articles": [
     {
-      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/eyal-zamir-profile-iran-war.html",
-      "title": "Who Is Eyal Zamir, the Architect of Israel’s War Plans?",
-      "description": "The Israeli general has long been focused on the threat from Iran and its proxies, and has called for a regional alliance against the country.",
-      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/eyal-zamir-profile-iran-war.html",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-03-05T14:31:02.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/europe-iran-war-military-defense.html",
-      "title": "As Iran Widens Retaliatory Strikes, Europe Accelerates Response for Gulf Allies",
-      "description": "Defense Minister Guido Crosetto said that Italy would provide “air defense systems, anti-drone and antimissile systems” as Iran widened its retaliatory strikes.",
-      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/europe-iran-war-military-defense.html",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-03-05T14:30:06.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.nytimes.com/video/world/middleeast/100000010747493/on-the-ground-in-beirut.html",
-      "title": "On the Ground in Beirut",
-      "description": "Our Beirut bureau chief, Christina Goldbaum, reports on the escalating conflict between Israel and the Iran-backed armed group Hezbollah, as Israel’s military seizes areas of south...",
-      "url": "https://www.nytimes.com/video/world/middleeast/100000010747493/on-the-ground-in-beirut.html",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-03-05T14:25:03.000Z",
-      "tag": "Developing"
-    },
-    {
-      "id": "article-70708010",
-      "title": "Watch: Ex-Marine protests U.S.–Israeli operation against Iran, arm broken in clash",
-      "description": "Former U.S. Marine Sergeant Brian McGuinness was removed from a Senate Armed Services Subcommittee hearing after interrupting proceedings to protest the ongoing U.S.–Israeli milita...",
-      "url": "https://www.thehindu.com/videos/ex-marine-protests-usisraeli-operation-against-iranarm-broken-in-clash/article70708010.ece",
-      "source": "The Hindu",
-      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-03-05T14:14:49.000Z",
-      "tag": "Update"
-    },
-    {
-      "id": "https://www.theguardian.com/world/live/2026/mar/05/iran-war-latest-updates-canada-carney-trump-israel-tehran-strikes",
-      "title": "Middle East crisis live: Azerbaijan troops at ‘highest level of readiness’ as Iran denies it is behind drone attacks",
-      "description": "President warns ‘any hostile force will feel the full might of our Iron Fist’ Tell us: how have you been affected by the latest events in the Middle East? Iran says it has targeted...",
-      "url": "https://www.theguardian.com/world/live/2026/mar/05/iran-war-latest-updates-canada-carney-trump-israel-tehran-strikes",
+      "id": "https://www.theguardian.com/world/live/2026/mar/11/iran-war-live-updates-trump-oil-hormuz-protestors-us-israel-beirut-middle-east-latest-news",
+      "title": "Middle East crisis live: three ships hit in strait of Hormuz as ‘largest ever’ oil reserve release agreed by 32 countries",
+      "description": "Thai navy responds to attack on bulk carrier; sources say Iran has deployed a dozen mines in the strait How have you been affected by the latest Middle East events? Over in Senate...",
+      "url": "https://www.theguardian.com/world/live/2026/mar/11/iran-war-live-updates-trump-oil-hormuz-protestors-us-israel-beirut-middle-east-latest-news",
       "source": "The Guardian",
       "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
-      "publishedAt": "2026-03-05T14:12:45.000Z",
-      "tag": "Critical"
+      "publishedAt": "2026-03-11T18:02:33.000Z",
+      "tag": "Critical",
+      "paywalled": false
     },
     {
-      "id": "https://www.theguardian.com/world/live/2026/mar/05/spain-us-israel-war-iran-white-house-trade-evacuations-latest-news",
-      "title": "German foreign minister says ‘we will not allow ourselves to be divided’ after Trump-Spain spat – Europe live",
-      "description": "The US president previously threatened to stop all trade with Spain after it said it didn’t back the US-Israeli military operation against Iran Meanwhile, France has allowed US air...",
-      "url": "https://www.theguardian.com/world/live/2026/mar/05/spain-us-israel-war-iran-white-house-trade-evacuations-latest-news",
+      "id": "https://www.bbc.com/news/videos/clyx5dlnw44o#3",
+      "title": "'Kill the regime but not people': BBC speaks to Iranians crossing into Turkey",
+      "description": "Dan Johnson hears from Iranians at a crossing in north-west Iran about their thoughts on the war and regime.",
+      "url": "https://www.bbc.com/news/videos/clyx5dlnw44o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "logoUrl": "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+      "publishedAt": "2026-03-11T17:58:11.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "https://www.theguardian.com/us-news/live/2026/mar/11/politics-georgia-election-democrats-republicans-trump-ohio",
+      "title": "US responsible for deadly bombing of Iranian girls school, preliminary findings reportedly say – live",
+      "description": "Strike on school in Minab, Iran, in which at least 175 people died was result of a ‘targeting mistake’, officials have told the New York Times Donald Trump said that the US-Israel...",
+      "url": "https://www.theguardian.com/us-news/live/2026/mar/11/politics-georgia-election-democrats-republicans-trump-ohio",
       "source": "The Guardian",
       "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
-      "publishedAt": "2026-03-05T14:07:13.000Z",
-      "tag": "Update"
+      "publishedAt": "2026-03-11T17:57:24.000Z",
+      "tag": "Critical",
+      "paywalled": false
     },
     {
-      "id": "https://indianexpress.com/?post_type=article&p=10566341",
-      "title": "Iran-Israel war: Emirates opens booking to 75 destinations, including 8 Indian cities from Dubai – Full list",
-      "description": "",
-      "url": "https://indianexpress.com/article/world/iran-israel-war-emirates-opens-booking-to-75-destinations-including-8-indian-cities-from-dubai-full-list-10566341/",
-      "source": "Indian Express",
-      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
-      "publishedAt": "2026-03-05T14:05:40.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.theguardian.com/world/2026/mar/05/guardian-readers-us-israel-war-on-iran",
-      "title": "‘This is a needless war’: Americans share their thoughts on the US-Israel attacks on Iran",
-      "description": "The Guardian asked US readers about the military action in Iran – their responses were largely disapproving As hundreds of civilians and some US service members have been killed in...",
-      "url": "https://www.theguardian.com/world/2026/mar/05/guardian-readers-us-israel-war-on-iran",
-      "source": "The Guardian",
-      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
-      "publishedAt": "2026-03-05T14:04:22.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "article-70707512",
-      "title": "Explained | Iran’s political system",
-      "description": "Unlike the President, the Supreme Leader doesn’t have any fixed term. Since the 1979 revolution, Iran has had only two Supreme Leaders — Khomeini (who died in 1989) and Ayatollah A...",
-      "url": "https://www.thehindu.com/news/international/irans-political-system-explained/article70707512.ece",
-      "source": "The Hindu",
-      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-03-05T14:00:56.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.theguardian.com/us-news/live/2026/mar/05/donald-trump-war-powers-latest-news-updates",
-      "title": "House to vote on limiting Trump’s powers in Iran war after Senate measure fails – US politics live",
-      "description": "House decision is expected to be tight after war powers resolution in the Senate fell apart along party lines Senate votes down resolution to prevent Trump from continuing Iran war...",
-      "url": "https://www.theguardian.com/us-news/live/2026/mar/05/donald-trump-war-powers-latest-news-updates",
-      "source": "The Guardian",
-      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
-      "publishedAt": "2026-03-05T13:58:27.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.theguardian.com/money/2026/mar/05/hsbc-coventry-raise-rates-fixed-mortgages-iran-middle-east-crisis",
-      "title": "HSBC and Coventry raise rates on fixed mortgages amid Middle East crisis",
-      "description": "Experts say Iran war could cause energy price shock that pushes up UK inflation, in turn forcing up interest rates HSBC and Coventry building society are the first big lenders in t...",
-      "url": "https://www.theguardian.com/money/2026/mar/05/hsbc-coventry-raise-rates-fixed-mortgages-iran-middle-east-crisis",
-      "source": "The Guardian",
-      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
-      "publishedAt": "2026-03-05T13:58:07.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/iran-navy-ships-war.html",
-      "title": "Trump Says He Wants to Destroy Iran’s Navy. Here’s What to Know.",
-      "description": "The United States has long considered Iranian naval ships a serious threat, even as the country’s nuclear and missile programs dominate discussions of its military capabilities.",
-      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/iran-navy-ships-war.html",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-03-05T13:57:18.000Z",
-      "tag": "Context"
-    },
-    {
-      "id": "https://indianexpress.com/?post_type=article&p=10566399",
-      "title": "Trump wants a quick victory in Iran. But the war may be costly",
-      "description": "",
-      "url": "https://indianexpress.com/article/world/trump-wants-a-quick-victory-in-iran-but-the-war-may-be-costly-10566399/",
-      "source": "Indian Express",
-      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
-      "publishedAt": "2026-03-05T13:56:34.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/iran-kurds-who.html",
-      "title": "Iranian Kurdish Forces Say They May Enter Iran. Who Are the Kurds?",
-      "description": "Spread across Iran, Iraq, Syria and Turkey, the ethnic group of 40 million has long sought, and fought for, greater autonomy.",
-      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/iran-kurds-who.html",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-03-05T13:55:44.000Z",
-      "tag": "Update"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/azerbaijan-iran-drone-attack-airport.html",
-      "title": "Iranian Drones Fall in Azerbaijan as Conflict Spreads Beyond Mideast",
-      "description": "Azerbaijan threatened to retaliate, as the neighbors with a long history of tensions found themselves again at odds.",
-      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/azerbaijan-iran-drone-attack-airport.html",
-      "source": "The New York Times",
-      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-03-05T13:55:03.000Z",
-      "tag": "Context"
-    },
-    {
-      "id": "CBMikgFBVV95cUxNSXBBS0pyN0ZDWGR3aEMtWUsxLWRsVzl2RGUzM1JLVDVjbzU1ZVNKaHlRd21sc2FkUUpvejJ0QmQ3ZDZrcGo1S3M0ek1yS2xXbnFEcEVydmxFcEJ1U1RFNV9iRWlIa1lqUEljQjRtSG8wN09oMW8zdWJEc0NWSG1aamxlc0RnT2hWd2JQLURoR1Radw",
-      "title": "Iran is pummeled by airstrikes as it launches a new wave of attacks against Israel and US bases - AP News",
-      "description": "Iran is pummeled by airstrikes as it launches a new wave of attacks against Israel and US bases AP News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSXBBS0pyN0ZDWGR3aEMtWUsxLWRsVzl2RGUzM1JLVDVjbzU1ZVNKaHlRd21sc2FkUUpvejJ0QmQ3ZDZrcGo1S3M0ek1yS2xXbnFEcEVydmxFcEJ1U1RFNV9iRWlIa1lqUEljQjRtSG8wN09oMW8zdWJEc0NWSG1aamxlc0RnT2hWd2JQLURoR1Radw?oc=5",
+      "id": "CBMipgFBVV95cUxPc0xDZm1BUmZPaDIwZUowdC1UZ2NTNldDRXRfbkNZU2dPMVg3dzRZVExVbUdLVjlUUWRfNWxmaTNVblFOS1JaY3VhQUNPN0VjcEpMMC05TDFmQkZyZnRUR2lDUkJTZVFwbVVLdXVBUUM0MUhtT1dfR3h1RWIyNndxSjVGRy1qT2s1Mmd3WFpwaWQyYUh0d0hoN3VnaTRPR1pRRXNNVFpR",
+      "title": "Trump visits Ohio and Kentucky to downplay Iran war's effect on economy and target a GOP antagonist - AP News",
+      "description": "Trump visits Ohio and Kentucky to downplay Iran war's effect on economy and target a GOP antagonist AP News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc0xDZm1BUmZPaDIwZUowdC1UZ2NTNldDRXRfbkNZU2dPMVg3dzRZVExVbUdLVjlUUWRfNWxmaTNVblFOS1JaY3VhQUNPN0VjcEpMMC05TDFmQkZyZnRUR2lDUkJTZVFwbVVLdXVBUUM0MUhtT1dfR3h1RWIyNndxSjVGRy1qT2s1Mmd3WFpwaWQyYUh0d0hoN3VnaTRPR1pRRXNNVFpR?oc=5",
       "source": "AP News",
       "logoUrl": "https://assets.apnews.com/fa/ba/9258a7114f5ba5c7202aaa1bdd66/aplogo.svg",
-      "publishedAt": "2026-03-05T13:54:00.000Z",
-      "tag": "Critical"
+      "publishedAt": "2026-03-11T17:54:00.000Z",
+      "tag": "Critical",
+      "paywalled": false
     },
     {
-      "id": "article-70705745",
-      "title": "Iran-Israel war LIVE: Iran has not yet elected new supreme leader, top Iranian official says",
-      "description": "U.S. will ‘bitterly regret’ attacking IRIS Dena, said Iranian Foreign Minister Seyed Abbas Araghchi",
-      "url": "https://www.thehindu.com/news/international/iran-israel-us-war-attacks-strikes-west-asia-lebanon-trump-netanyahu-live-updates/article70705745.ece",
-      "source": "The Hindu",
-      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-03-05T13:53:47.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772708490",
-      "title": "Map shows how big Iran is compared with the 50 US states",
-      "description": "Iran is roughly the same size as Alaska, 2.5 times the size of Texas and covers about one-sixth of the US land area.",
-      "url": "https://www.aljazeera.com/news/2026/3/5/map-shows-how-big-iran-is-compared-with-the-50-us-states?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-03-05T13:53:22.000Z",
-      "tag": "Update"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772708974",
-      "title": "While US encourages Kurds to attack Iran, history serves darker warning",
-      "description": "Kurds weigh Washington's push for a rebellion on Iranian soil against a history of betrayals and pragmatic alliances.",
-      "url": "https://www.aljazeera.com/features/2026/3/5/while-us-encourages-kurds-to-attack-iran-history-serves-darker-warning?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-03-05T13:33:05.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772714582",
-      "title": "Missiles fired by US, Israel hit two schools near Tehran: Iranian media",
-      "description": "The latest attack comes six days after the deadliest single one during the war on Iran, which killed 165 people.",
-      "url": "https://www.aljazeera.com/news/2026/3/5/missile-attack-hits-two-schools-in-irans-parand-iranian-media?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-03-05T13:29:00.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772710293",
-      "title": "Israel puts a target on the back of the rules-based order",
-      "description": "Israel suggests those seeking to enforce international law on Gaza will meet the fate of a destroyed Iranian warship.",
-      "url": "https://www.aljazeera.com/opinions/2026/3/5/israel-puts-a-target-on-the-back-of-the-rules-based-order?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-03-05T13:26:21.000Z",
-      "tag": "Update"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/03/05/us/politics/trump-iran-war-presidential-power.html",
-      "title": "The Long March of Presidential Power That Led to War on Iran",
-      "description": "Presidents have sidestepped Congress to launch limited military strikes for decades. Trump’s decision to attack Iran is an aggressive escalation.",
-      "url": "https://www.nytimes.com/2026/03/05/us/politics/trump-iran-war-presidential-power.html",
+      "id": "https://www.nytimes.com/2026/03/11/sports/iran-women-soccer-defect.html",
+      "title": "Iran Soccer Players Seeking Asylum Are Part of a History of Athlete Defections",
+      "description": "Members of the Iranian soccer team who chose to remain in Australia this week are far from the first to travel to a competition and stay there.",
+      "url": "https://www.nytimes.com/2026/03/11/sports/iran-women-soccer-defect.html",
       "source": "The New York Times",
       "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-03-05T13:23:13.000Z",
-      "tag": "Critical"
+      "publishedAt": "2026-03-11T17:49:53.000Z",
+      "tag": "Context",
+      "paywalled": true
     },
     {
-      "id": "https://indianexpress.com/?post_type=article&p=10566198",
-      "title": "Iran’s IRIS Dena sinking: What are international waters and how they differ from territorial waters and EEZ?",
+      "id": "https://www.nytimes.com/live/2026/03/11/world/iran-war-news-trump-oil-israel/lebanese-residents-left-in-shock-and-fear-as-israeli-strikes-reach-center-of-beirut",
+      "title": "Lebanese residents left in shock and fear as Israeli strikes reach center of Beirut.",
       "description": "",
-      "url": "https://indianexpress.com/article/world/us-news/irans-iris-dena-sinking-what-are-international-waters-and-how-they-differ-from-territorial-waters-and-eez-10566198/",
+      "url": "https://www.nytimes.com/live/2026/03/11/world/iran-war-news-trump-oil-israel/lebanese-residents-left-in-shock-and-fear-as-israeli-strikes-reach-center-of-beirut",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-11T17:49:38.000Z",
+      "tag": "Critical",
+      "paywalled": true
+    },
+    {
+      "id": "https://www.nytimes.com/2026/03/11/world/middleeast/iran-israel-cluster-munitions.html",
+      "title": "Iran Has Fired Widely Banned Cluster Munitions at Israel",
+      "description": "Accounts from Israeli officials and footage verified by The New York Times show that Iran has targeted Israel with the weapons. Experts say this has exposed civilians to indiscrimi...",
+      "url": "https://www.nytimes.com/2026/03/11/world/middleeast/iran-israel-cluster-munitions.html",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-11T17:29:08.000Z",
+      "tag": "Critical",
+      "paywalled": true
+    },
+    {
+      "id": "https://www.nytimes.com/2026/03/11/us/politics/iran-school-missile-strike.html",
+      "title": "U.S. at Fault in Strike on School in Iran, Preliminary Inquiry Says",
+      "description": "Outdated targeting data may have resulted in a mistaken missile strike, according to the ongoing military investigation, which undercuts President Trump’s assertion that Iran could...",
+      "url": "https://www.nytimes.com/2026/03/11/us/politics/iran-school-missile-strike.html",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-11T17:26:44.000Z",
+      "tag": "Critical",
+      "paywalled": true
+    },
+    {
+      "id": "https://indianexpress.com/?post_type=article&p=10577144",
+      "title": "Video: Oil facilities hit in Oman’s Salalah port amid Iranian strikes",
+      "description": "",
+      "url": "https://indianexpress.com/article/world/oil-facilities-hit-in-omans-salalah-port-amid-iranian-strikes-10577144/",
       "source": "Indian Express",
       "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
-      "publishedAt": "2026-03-05T13:22:22.000Z",
-      "tag": "Update"
+      "publishedAt": "2026-03-11T17:23:50.000Z",
+      "tag": "Critical",
+      "paywalled": false
     },
     {
-      "id": "https://www.hindustantimes.com/world-news/as-us-escalates-war-with-iran-in-middle-east-where-do-g7-france-uk-italy-germany-japan-canada-stand-on-tensions-101772713056996.html",
-      "title": "As US escalates war with Iran in Middle East, where do other G7 nations stand?",
-      "description": "With the sinking of an Iranian warship, tensions have escalated, prompting G7 nations to up their defences as they brace for possible intervention.",
-      "url": "https://www.hindustantimes.com/world-news/as-us-escalates-war-with-iran-in-middle-east-where-do-g7-france-uk-italy-germany-japan-canada-stand-on-tensions-101772713056996.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-03-05T13:19:12.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.hindustantimes.com/world-news/the-start-of-the-iran-war-was-determined-by-spying-success-101772716526553.html",
-      "title": "The start of the Iran war was determined by spying success",
-      "description": "Decapitation has long been a core part of war. Other countries have attempted it in recent years.",
-      "url": "https://www.hindustantimes.com/world-news/the-start-of-the-iran-war-was-determined-by-spying-success-101772716526553.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-03-05T13:17:11.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772715820",
-      "title": "Barrage of Iranian missiles target Qatar",
-      "description": "A wave of loud missile explosions was heard over the skies of Doha on Thursday.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/5/barrage-of-iranian-missiles-target-qatar?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-03-05T13:09:30.000Z",
-      "tag": "Update"
-    },
-    {
-      "id": "article-70706664",
-      "title": "Second Iranian ship near Sri Lankan waters, Minister tells country’s Parliament",
-      "description": "Minister Nalinda Jayatissa informs Parliament that the Iranian vessel was in the country’s Exclusive Economic Zone near the maritime boundary, and not in Sri Lanka’s territorial wa...",
-      "url": "https://www.thehindu.com/news/international/sri-lanka-says-second-iranian-ship-awaits-entry/article70706664.ece",
+      "id": "article-70729328",
+      "title": "Iran-Israel war LIVE: Iran warns ready for long war that would 'destroy' world economy",
+      "description": "Drone strikes near Dubai airport deepen Gulf aviation chaos",
+      "url": "https://www.thehindu.com/news/international/iran-israel-war-west-asia-conflict-march-11-2026-live-updates/article70729328.ece",
       "source": "The Hindu",
       "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
-      "publishedAt": "2026-03-05T13:07:13.000Z",
-      "tag": "Update"
+      "publishedAt": "2026-03-11T17:23:15.000Z",
+      "tag": "Critical",
+      "paywalled": true
     },
     {
-      "id": "https://www.ndtv.com/world-news/iran-israel-war-crude-oil-gas-supply-news-india-continues-russia-crude-import-as-iran-war-hurts-oil-supply-sources-11172917#publisher=newsstand",
-      "title": "India Continues Russia Crude Import As Iran War Hurts Oil Supply: Sources",
-      "description": "India is in a very comfortable situation regarding energy security, government sources have told NDTV Profit, stressing that there is no need to panic amid disruptions in the oil m...",
-      "url": "https://www.ndtv.com/world-news/iran-israel-war-crude-oil-gas-supply-news-india-continues-russia-crude-import-as-iran-war-hurts-oil-supply-sources-11172917#publisher=newsstand",
+      "id": "https://www.aljazeera.com/?t=1773233309",
+      "title": "FIFA World Cup: US war on Iran, Mexico violence, visa bans, Iraq qualifier",
+      "description": "The FIFA World Cup 2026 was billed as one of the easiest to organise, but challenges still lie in wait.",
+      "url": "https://www.aljazeera.com/sports/2026/3/11/fifa-world-cup-iran-participation-mexico-violence-visa-ban?traffic_source=rss",
+      "source": "Al Jazeera",
+      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
+      "publishedAt": "2026-03-11T17:22:48.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "https://www.aljazeera.com/?t=1773244584",
+      "title": "Trump says Iran war to end ‘soon’ as Israel claims no time limit",
+      "description": "US president hails war progress as Iran continues to block Hormuz Strait and launch attacks across the region.",
+      "url": "https://www.aljazeera.com/news/2026/3/11/trump-says-iran-war-to-end-soon-as-israel-claims-no-time-limit?traffic_source=rss",
+      "source": "Al Jazeera",
+      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
+      "publishedAt": "2026-03-11T17:18:19.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/iran-war-live-us-missile-struck-iran-school-due-to-targeting-error-report-11202270#publisher=newsstand",
+      "title": "US Missile Struck Iran School Due To 'Targeting Error': Report",
+      "description": "The United States is responsible for the strike on the elementary school in Iran's Minab that killed over 175 people, mostly children, according to a report by the New York Times.",
+      "url": "https://www.ndtv.com/world-news/iran-war-live-us-missile-struck-iran-school-due-to-targeting-error-report-11202270#publisher=newsstand",
       "source": "NDTV",
       "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
-      "publishedAt": "2026-03-05T13:01:53.000Z",
-      "tag": "Critical"
+      "publishedAt": "2026-03-11T17:16:25.000Z",
+      "tag": "Critical",
+      "paywalled": false
     },
     {
-      "id": "https://www.aljazeera.com/?t=1772690937",
-      "title": "Will the US benefit from the oil crisis sparked by the war on Iran?",
-      "description": "Attacks on energy sites in the Gulf and disruptions in the Strait of Hormuz give Western exporters a chance to profit.",
-      "url": "https://www.aljazeera.com/news/2026/3/5/will-the-us-benefit-from-the-oil-crisis-sparked-by-the-war-on-iran?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-03-05T12:59:04.000Z",
-      "tag": "Critical"
+      "id": "https://www.hindustantimes.com/world-news/hsbc-shuts-qatar-branch-citi-standard-chartered-evacuate-dubai-offices-amid-fears-of-iranian-strikes-101773246648953.html",
+      "title": "HSBC shuts Qatar branch; Citi, Standard Chartered evacuate Dubai offices amid fears of Iranian strikes",
+      "description": "Earlier, a ​spokesperson for Tehran said that it will target economic and banking ​interests linked to the US ‌and Israel in the region",
+      "url": "https://www.hindustantimes.com/world-news/hsbc-shuts-qatar-branch-citi-standard-chartered-evacuate-dubai-offices-amid-fears-of-iranian-strikes-101773246648953.html",
+      "source": "Hindustan Times",
+      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
+      "publishedAt": "2026-03-11T17:14:53.000Z",
+      "tag": "Critical",
+      "paywalled": false
     },
     {
-      "id": "https://www.theguardian.com/money/2026/mar/05/ministers-discuss-offset-energy-price-surges-iran-war",
-      "title": "Ministers discuss ways to offset energy price surges caused by Iran war",
-      "description": "Government’s claim to have lowered bills in jeopardy as households face £160 rise caused by soaring oil and gas prices Ministers are discussing the possibility of intervening to pr...",
-      "url": "https://www.theguardian.com/money/2026/mar/05/ministers-discuss-offset-energy-price-surges-iran-war",
+      "id": "https://www.theguardian.com/business/2026/mar/11/iea-oil-reserves-stockpiles-release-price-per-barrel-analysis",
+      "title": "Will releasing millions of barrels of oil stockpiles really bring down fuel costs?",
+      "description": "Despite rare act of multilateralism, there is no guarantee the IEA’s release of 400m barrels from reserves will depress prices IEA orders largest ever release of stockpiled oil to...",
+      "url": "https://www.theguardian.com/business/2026/mar/11/iea-oil-reserves-stockpiles-release-price-per-barrel-analysis",
       "source": "The Guardian",
       "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
-      "publishedAt": "2026-03-05T12:54:39.000Z",
-      "tag": "Critical"
+      "publishedAt": "2026-03-11T17:14:23.000Z",
+      "tag": "Critical",
+      "paywalled": false
     },
     {
-      "id": "CBMimwFBVV95cUxPMnEyV2Q2ckJ6MlZEcUhKcm5qYldXNTdQQ0labVJhUnBHSHNYdnh1X2QxLUhwRDdqSWRsV01GRmQyeTh5TFN6c3NUbUZOR3lPckw5b0Q2RDJSZUI2WUpFb2ZaaUNJS1lWejU3U3F3XzBSY2dwLVJNQzVRNVpDTjNrcTQ3Wmd3VEpnanFlZklGMHUtUng0M29oS3dOWQ",
-      "title": "US futures slide, oil and gasoline prices climb on retaliatory strikes from Iran - AP News",
-      "description": "US futures slide, oil and gasoline prices climb on retaliatory strikes from Iran AP News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMnEyV2Q2ckJ6MlZEcUhKcm5qYldXNTdQQ0labVJhUnBHSHNYdnh1X2QxLUhwRDdqSWRsV01GRmQyeTh5TFN6c3NUbUZOR3lPckw5b0Q2RDJSZUI2WUpFb2ZaaUNJS1lWejU3U3F3XzBSY2dwLVJNQzVRNVpDTjNrcTQ3Wmd3VEpnanFlZklGMHUtUng0M29oS3dOWQ?oc=5",
+      "id": "article-70732295",
+      "title": "Iran police chief says anti-government protesters treated as 'enemies'",
+      "description": "The warning comes after the government cracked down on anti-government protests in January, sparked a month before over economic grievances in the sanctions-hit country.",
+      "url": "https://www.thehindu.com/news/international/iran-police-chief-says-anti-government-protesters-treated-as-enemies/article70732295.ece",
+      "source": "The Hindu",
+      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
+      "publishedAt": "2026-03-11T17:14:12.000Z",
+      "tag": "Update",
+      "paywalled": true
+    },
+    {
+      "id": "https://www.nytimes.com/live/2026/03/11/world/iran-war-news-trump-oil-israel/iran-holds-public-mourning-ceremony-for-commanders",
+      "title": "Iran holds a public mourning ceremony for commanders killed by strikes.",
+      "description": "Thousands of people mourned in a state-sanctioned ceremony, as people in Tehran described deepening anxiety and fear as the war continued.",
+      "url": "https://www.nytimes.com/live/2026/03/11/world/iran-war-news-trump-oil-israel/iran-holds-public-mourning-ceremony-for-commanders",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-11T17:14:02.000Z",
+      "tag": "Critical",
+      "paywalled": true
+    },
+    {
+      "id": "https://www.hindustantimes.com/world-news/irans-production-of-shahed-missiles-slowed-down-but-not-halted-101773238939638.html",
+      "title": "Iran’s production of Shahed missiles slowed down but not halted",
+      "description": "The weapons are basically a fiberglass body with a motor, basic guidance, and explosives, meaning manufacturing can be done at a speedboat repair facility,",
+      "url": "https://www.hindustantimes.com/world-news/irans-production-of-shahed-missiles-slowed-down-but-not-halted-101773238939638.html",
+      "source": "Hindustan Times",
+      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
+      "publishedAt": "2026-03-11T17:05:36.000Z",
+      "tag": "Update",
+      "paywalled": false
+    },
+    {
+      "id": "article-70732296",
+      "title": "U.S. has ‘practically nothing left to target’ in Iran, says Trump: report",
+      "description": "Trump has given repeated mixed messages about the timing and aims of the war but on Monday (March 9, 2026) he also said the ending could come “soon.”",
+      "url": "https://www.thehindu.com/news/international/us-has-practically-nothing-left-to-target-in-iran-says-trump-report/article70732296.ece",
+      "source": "The Hindu",
+      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
+      "publishedAt": "2026-03-11T17:04:03.000Z",
+      "tag": "Critical",
+      "paywalled": true
+    },
+    {
+      "id": "https://www.nytimes.com/2026/03/11/world/middleeast/ships-attack-strait-hormuz-iran.html",
+      "title": "At Least 3 Ships Are Struck Around Strait of Hormuz, and Iran Claims One",
+      "description": "Three vessels were hit in and around the Persian Gulf on Wednesday, according to a British maritime agency. Iran claimed responsibility for one.",
+      "url": "https://www.nytimes.com/2026/03/11/world/middleeast/ships-attack-strait-hormuz-iran.html",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-11T17:03:49.000Z",
+      "tag": "Update",
+      "paywalled": true
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/iran-says-ready-for-long-war-that-could-destroy-world-economy-11202201#publisher=newsstand",
+      "title": "Iran Says Ready For Long War That Could \"Destroy World Economy\"",
+      "description": "Iran said Wednesday it was ready for a long war of attrition that would \"destroy\" the world economy, after firing on two commercial ships and threatening any vessels from the US or...",
+      "url": "https://www.ndtv.com/world-news/iran-says-ready-for-long-war-that-could-destroy-world-economy-11202201#publisher=newsstand",
+      "source": "NDTV",
+      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
+      "publishedAt": "2026-03-11T17:00:37.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "https://www.theguardian.com/world/2026/mar/11/the-shine-has-been-taken-off-dubai-faces-existential-threat-as-foreigners-flee-conflict",
+      "title": "‘The shine has been taken off’: Dubai faces existential threat as foreigners flee conflict",
+      "description": "Tens of thousands of residents and tourists have left UAE since the US and Israel started bombing Iran two weeks ago, leaving beach bars, malls and hotels eerily empty In the playg...",
+      "url": "https://www.theguardian.com/world/2026/mar/11/the-shine-has-been-taken-off-dubai-faces-existential-threat-as-foreigners-flee-conflict",
+      "source": "The Guardian",
+      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
+      "publishedAt": "2026-03-11T16:57:00.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/cn0znx4xrl9o#0",
+      "title": "Bowen: Trump has called for an Iran uprising but the lessons from Iraq in 1991 loom large",
+      "description": "The US president might learn that starting wars is much easier than ending them, writes the BBC's international editor.",
+      "url": "https://www.bbc.com/news/articles/cn0znx4xrl9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "logoUrl": "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+      "publishedAt": "2026-03-11T16:45:28.000Z",
+      "tag": "Update",
+      "paywalled": false
+    },
+    {
+      "id": "https://www.aljazeera.com/?t=1773247291",
+      "title": "IEA recommends record 400M barrel oil release amid Iran war",
+      "description": "The International Energy Agency has agreed to release a record 400 million barrels of oil.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/11/iea-recommends-record-400m-barrel-oil-release-amid-iran-war?traffic_source=rss",
+      "source": "Al Jazeera",
+      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
+      "publishedAt": "2026-03-11T16:43:56.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "https://www.aljazeera.com/?t=1773240214",
+      "title": "UN warns of widening crisis as Israeli attacks displace 750,000 in Lebanon",
+      "description": "UN humanitarian chief says mass displacement accelerating as Lebanon's shelters are already overcrowded, lack resources.",
+      "url": "https://www.aljazeera.com/news/2026/3/11/un-warns-of-widening-crisis-as-israeli-attacks-displace-750000-in-lebanon?traffic_source=rss",
+      "source": "Al Jazeera",
+      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
+      "publishedAt": "2026-03-11T16:41:20.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "CBMimgFBVV95cUxQR05ZQWo2ZEJTbVVKaGdvRlJvWENFQ2hzamo0SVRobUl3UUN2dmduZXFkOFcwb0JRWGdtMk5ud1FWMVVYd0h3dEstLWtSRDFwallHUVB5QUxCOC1IbjA4MUQzRFVDUGNsdVpWNWwwZU5ZOEFHU2c0cGU5SFBRY2Z2T1QwMkJFNkFsRWRTQXRrc01peHRFMEJLMXZn",
+      "title": "A boost for Moscow in the shadow of Iran war: US allows India to buy Russian oil for a month - AP News",
+      "description": "A boost for Moscow in the shadow of Iran war: US allows India to buy Russian oil for a month AP News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR05ZQWo2ZEJTbVVKaGdvRlJvWENFQ2hzamo0SVRobUl3UUN2dmduZXFkOFcwb0JRWGdtMk5ud1FWMVVYd0h3dEstLWtSRDFwallHUVB5QUxCOC1IbjA4MUQzRFVDUGNsdVpWNWwwZU5ZOEFHU2c0cGU5SFBRY2Z2T1QwMkJFNkFsRWRTQXRrc01peHRFMEJLMXZn?oc=5",
       "source": "AP News",
       "logoUrl": "https://assets.apnews.com/fa/ba/9258a7114f5ba5c7202aaa1bdd66/aplogo.svg",
-      "publishedAt": "2026-03-05T12:49:00.000Z",
-      "tag": "Critical"
+      "publishedAt": "2026-03-11T16:38:16.000Z",
+      "tag": "Critical",
+      "paywalled": false
     },
     {
-      "id": "https://timesofindia.indiatimes.com/world/us/former-marines-anti-iran-war-protest-sparks-clash-did-senator-tim-sheehy-break-brian-mcginnis-arm/articleshow/129088711.cms",
-      "title": "Former Marine’s anti-Iran war protest sparks clash: Did Senator Tim Sheehy break Brian McGinnis’ arm?",
-      "description": "A protestor's anti-war outburst disrupted a Senate hearing, leading to a scuffle and injuries to three police officers. Brian McGinnis, identified as a Green Party candidate, was f...",
-      "url": "https://timesofindia.indiatimes.com/world/us/former-marines-anti-iran-war-protest-sparks-clash-did-senator-tim-sheehy-break-brian-mcginnis-arm/articleshow/129088711.cms",
+      "id": "article-70732306",
+      "title": "‘Targeting mistake’ led to U.S. missile strike on Iranian school: report",
+      "description": "Tthe investigation into the February 28 strike was ongoing but preliminary findings were that the United States was responsible",
+      "url": "https://www.thehindu.com/news/international/targeting-mistake-led-to-us-missile-strike-on-iranian-school-report/article70732306.ece",
+      "source": "The Hindu",
+      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
+      "publishedAt": "2026-03-11T16:30:53.000Z",
+      "tag": "Critical",
+      "paywalled": true
+    },
+    {
+      "id": "https://www.ndtv.com/world-news/iran-news-live-updates-strait-of-hormuz-cargo-ship-mayuree-naree-sailing-to-india-attacked-in-strait-of-hormuz-thai-navy-11200152#publisher=newsstand",
+      "title": "Black Smoke, Fire On Thai Cargo Ship Sailing To India After Hormuz Attack",
+      "description": "Iran News Live Updates, Strait Of Hormuz: Cargo Ship Mayuree Naree Sailing To India Attacked In Strait Of Hormuz: Thai Navy",
+      "url": "https://www.ndtv.com/world-news/iran-news-live-updates-strait-of-hormuz-cargo-ship-mayuree-naree-sailing-to-india-attacked-in-strait-of-hormuz-thai-navy-11200152#publisher=newsstand",
+      "source": "NDTV",
+      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
+      "publishedAt": "2026-03-11T16:23:04.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "https://www.theguardian.com/world/2026/mar/11/iran-war-missile-strike-elementary-school",
+      "title": "US responsible for deadly missile strike on Iran school, preliminary inquiry says",
+      "description": "Strike that killed at least 175 people, most of them children, reportedly due to targeting mistake by US military planners Minab school bombing: a visual guide A preliminary US mil...",
+      "url": "https://www.theguardian.com/world/2026/mar/11/iran-war-missile-strike-elementary-school",
+      "source": "The Guardian",
+      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
+      "publishedAt": "2026-03-11T16:21:32.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "CBMiqwFBVV95cUxPLXJXYTVRTlZvOWFMOG1kaUU0SUZHYnkwbDN1cDhCUnhfRUw5cFJIU1ZVNmVTa1FHclBYdnFHcnVkaGV5aUZ0OWVsb09mWUt1QzRrU0Y5ZDZsYnNmd3N5UktLQlBsc3VGSWpGcmhpRDVXa0VsMWtCLWd3cEhWblFVOHB0Q1hfVGptRHp3d05RNGFybnpvSWp1SnVNUmRfQWVfcDhrcnhsdTVvVG8",
+      "title": "Tracing the US military’s learning curve on fighting Iran’s drones: What to know - AP News",
+      "description": "Tracing the US military’s learning curve on fighting Iran’s drones: What to know AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLXJXYTVRTlZvOWFMOG1kaUU0SUZHYnkwbDN1cDhCUnhfRUw5cFJIU1ZVNmVTa1FHclBYdnFHcnVkaGV5aUZ0OWVsb09mWUt1QzRrU0Y5ZDZsYnNmd3N5UktLQlBsc3VGSWpGcmhpRDVXa0VsMWtCLWd3cEhWblFVOHB0Q1hfVGptRHp3d05RNGFybnpvSWp1SnVNUmRfQWVfcDhrcnhsdTVvVG8?oc=5",
+      "source": "AP News",
+      "logoUrl": "https://assets.apnews.com/fa/ba/9258a7114f5ba5c7202aaa1bdd66/aplogo.svg",
+      "publishedAt": "2026-03-11T16:21:00.000Z",
+      "tag": "Context",
+      "paywalled": false
+    },
+    {
+      "id": "https://www.hindustantimes.com/world-news/amid-shortage-fears-rate-hikes-iran-drops-200-bombshell-claim-on-oil-prices-101773238184229.html",
+      "title": "Amid shortage fears, rate hikes, Iran drops '$200' bombshell claim on oil prices",
+      "description": "The warning comes at a time when energy supplies are already under strain due to disruptions in the Strait of Hormuz.",
+      "url": "https://www.hindustantimes.com/world-news/amid-shortage-fears-rate-hikes-iran-drops-200-bombshell-claim-on-oil-prices-101773238184229.html",
+      "source": "Hindustan Times",
+      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
+      "publishedAt": "2026-03-11T16:17:12.000Z",
+      "tag": "Update",
+      "paywalled": false
+    },
+    {
+      "id": "https://www.bbc.com/sport/football/articles/cx2d5r92rk0o#0",
+      "title": "Iranian minister says country will not play in World Cup",
+      "description": "Iran is not in a position to participate in the 2026 World Cup, says the country's Minister of Sports and Youth.",
+      "url": "https://www.bbc.com/sport/football/articles/cx2d5r92rk0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "logoUrl": "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+      "publishedAt": "2026-03-11T16:15:39.000Z",
+      "tag": "Update",
+      "paywalled": false
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/defence/international/explained-what-is-irans-black-clad-nopo-force-guarding-supreme-leader-mojtaba-khamenei/articleshow/129470543.cms",
+      "title": "Explained: What is Iran’s black-clad NOPO force guarding Supreme Leader Mojtaba Khamenei?",
+      "description": "Iran's elite NOPO counterterrorism unit is reportedly guarding newly appointed Supreme Leader Mojtaba Khamenei after his father's assassination. This highly specialized force, know...",
+      "url": "https://timesofindia.indiatimes.com/defence/international/explained-what-is-irans-black-clad-nopo-force-guarding-supreme-leader-mojtaba-khamenei/articleshow/129470543.cms",
       "source": "Times of India",
       "logoUrl": "https://static.toiimg.com/photo/47529300.cms",
-      "publishedAt": "2026-03-05T12:41:46.000Z",
-      "tag": "Critical"
+      "publishedAt": "2026-03-11T16:15:01.000Z",
+      "tag": "Critical",
+      "paywalled": true
     },
     {
-      "id": "https://indianexpress.com/?post_type=article&p=10566177",
-      "title": "US-Israel war on Iran: Country-wise list of casualties",
-      "description": "",
-      "url": "https://indianexpress.com/article/world/us-israel-war-on-iran-country-wise-list-of-casualties-10566177/",
-      "source": "Indian Express",
-      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
-      "publishedAt": "2026-03-05T12:40:19.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772712840",
-      "title": "Gaza flotilla activists confronted by Tunisian police",
-      "description": "Global Sumud Flotilla activists say they were beaten by Tunisian police after being blocked from Sidi Bou Said port.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/5/gaza-flotilla-activists-confronted-by-tunisian-police?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-03-05T12:39:56.000Z",
-      "tag": "Update"
-    },
-    {
-      "id": "https://www.theguardian.com/world/2026/mar/05/azerbaijan-accuses-iran-drone-attack-airport-injured-people",
-      "title": "Azerbaijan accuses Iran of drone attack on airport that injured two people",
-      "description": "Tehran denies responsibility but strike raises prospect of US-Israel war on Iran spreading beyond Middle East Middle East crisis – live updates Azerbaijan has accused Iran of a dro...",
-      "url": "https://www.theguardian.com/world/2026/mar/05/azerbaijan-accuses-iran-drone-attack-airport-injured-people",
-      "source": "The Guardian",
-      "logoUrl": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png",
-      "publishedAt": "2026-03-05T12:39:10.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.ndtv.com/world-news/iran-israel-war-could-iran-war-trigger-new-refugee-wave-countries-most-likely-to-feel-it-first-11172770#publisher=newsstand",
-      "title": "Could Iran War Trigger New Refugee Wave? Countries Most Likely To Feel It First",
-      "description": "During the Syrian crisis, similar routes brought more than one million migrants into Europe in 2015, triggering political upheaval across several EU countries.",
-      "url": "https://www.ndtv.com/world-news/iran-israel-war-could-iran-war-trigger-new-refugee-wave-countries-most-likely-to-feel-it-first-11172770#publisher=newsstand",
-      "source": "NDTV",
-      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
-      "publishedAt": "2026-03-05T12:36:46.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.hindustantimes.com/world-news/chinese-professor-made-three-predictions-for-us-in-2024-two-turns-out-to-be-true-101772708005014.html",
-      "title": "Chinese professor made three predictions for US in 2024, two turns out to be true",
-      "description": "As tensions between Washington and Tehran continue to simmer, clips from his 2024 lecture are being widely shared online.",
-      "url": "https://www.hindustantimes.com/world-news/chinese-professor-made-three-predictions-for-us-in-2024-two-turns-out-to-be-true-101772708005014.html",
-      "source": "Hindustan Times",
-      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
-      "publishedAt": "2026-03-05T12:34:49.000Z",
-      "tag": "Update"
-    },
-    {
-      "id": "https://www.aljazeera.com/?t=1772709455",
-      "title": "Iranians get by as US, Israeli bombs rain down, internet blocked",
-      "description": "Officials say some water, electricity facilities damaged amid US-Israel bombing, but no widespread outages reported yet.",
-      "url": "https://www.aljazeera.com/news/2026/3/5/iranians-get-by-as-us-israeli-bombs-rain-down-internet-blocked?traffic_source=rss",
-      "source": "Al Jazeera",
-      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
-      "publishedAt": "2026-03-05T12:22:57.000Z",
-      "tag": "Critical"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/03/05/world/middleeast/israel-downs-iran-fighter-plane-yak130.html",
-      "title": "Israel Says It Downed an Iranian Yak-130 Fighter Jet Over Tehran",
-      "description": "Israel said one of its F-35 fighter jets, known as an Adir, had downed another crewed plane over Tehran, the Iranian capital. Iran did not immediately comment.",
-      "url": "https://www.nytimes.com/2026/03/05/world/middleeast/israel-downs-iran-fighter-plane-yak130.html",
+      "id": "https://www.nytimes.com/2026/03/11/world/middleeast/iran-weapons-missiles-israel-gulf.html",
+      "title": "Iran’s Retaliatory Strikes Appear to Be Slowing",
+      "description": "U.S. officials say the country’s weapons have been diminished, slowing its attacks on Gulf nations and Israel. Iran may also be holding some weapons in reserve in case the conflict...",
+      "url": "https://www.nytimes.com/2026/03/11/world/middleeast/iran-weapons-missiles-israel-gulf.html",
       "source": "The New York Times",
       "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-      "publishedAt": "2026-03-05T12:17:03.000Z",
-      "tag": "Update"
+      "publishedAt": "2026-03-11T16:10:53.000Z",
+      "tag": "Critical",
+      "paywalled": true
     },
     {
-      "id": "https://www.ndtv.com/world-news/iran-israel-war-iran-denies-attacking-azerbaijan-baku-says-strikes-wont-go-unanswered-11172495#publisher=newsstand",
-      "title": "Iran Denies Attacking Azerbaijan, Baku Says Strikes 'Won't Go Unanswered'",
-      "description": "Azerbaijan said it was preparing to retaliate after two people were wounded on Thursday in Iranian drone hits on an airport and near a school.",
-      "url": "https://www.ndtv.com/world-news/iran-israel-war-iran-denies-attacking-azerbaijan-baku-says-strikes-wont-go-unanswered-11172495#publisher=newsstand",
-      "source": "NDTV",
-      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
-      "publishedAt": "2026-03-05T12:12:52.000Z",
-      "tag": "Critical"
+      "id": "article-70731605",
+      "title": "Iran’s new Supreme Leader injured but ‘safe’, officials say",
+      "description": "The daytime air strike on the first day of the war on February 28 on a compound in Tehran killed his father, former supreme leader Ayatollah Ali Khamenei, as well as his mother and...",
+      "url": "https://www.thehindu.com/news/international/irans-new-supreme-leader-mojtaba-hurt-in-strike-that-killed-his-father-report/article70731605.ece",
+      "source": "The Hindu",
+      "logoUrl": "https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg",
+      "publishedAt": "2026-03-11T16:05:52.000Z",
+      "tag": "Critical",
+      "paywalled": true
     },
     {
-      "id": "CBMivAFBVV95cUxPdUlhS3UwQjFCLVA4ZUppS2tlbE5IUm4xLWs5dGR6SFhrdU1TR0gwVGJEUUdiczRnbVdzVFNnZTBtMTk0UGFJaXNBRXRTV2taRENHdHVnY1VlNG5SdTE3Q0VhS3VadTN2YjlVOUZ6aGxvMm5ha2lyeHlYNE00WEhVUGFVRE8ydmNMdUVLWEtuMjNLVm5VcGU4N2JSVzNzYkdYaFhQQ0k2ZDhGcGt3cktMVGdZcG1Tc0YwUFlLcg",
-      "title": "Joy of UK's Iranian diaspora turning to fear as conflict rocks homeland - Reuters",
-      "description": "Joy of UK's Iranian diaspora turning to fear as conflict rocks homeland Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdUlhS3UwQjFCLVA4ZUppS2tlbE5IUm4xLWs5dGR6SFhrdU1TR0gwVGJEUUdiczRnbVdzVFNnZTBtMTk0UGFJaXNBRXRTV2taRENHdHVnY1VlNG5SdTE3Q0VhS3VadTN2YjlVOUZ6aGxvMm5ha2lyeHlYNE00WEhVUGFVRE8ydmNMdUVLWEtuMjNLVm5VcGU4N2JSVzNzYkdYaFhQQ0k2ZDhGcGt3cktMVGdZcG1Tc0YwUFlLcg?oc=5",
-      "source": "Reuters",
-      "logoUrl": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.webp",
-      "publishedAt": "2026-03-05T12:10:51.000Z",
-      "tag": "Update"
+      "id": "https://www.bbc.com/news/articles/c1mj1pyrzryo#0",
+      "title": "'Even under missiles we carry on living' - how young Iranians are coping with war",
+      "description": "Iranians say they are sheltering at home and rarely venturing out on near-empty streets as the US-Israeli bombing campaign continues.",
+      "url": "https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "logoUrl": "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+      "publishedAt": "2026-03-11T16:00:34.000Z",
+      "tag": "Critical",
+      "paywalled": false
     },
     {
-      "id": "https://www.ndtv.com/world-news/us-israel-iran-war-2-indians-killed-in-iran-attack-on-oil-tanker-skylight-in-strait-of-hormuz-near-oman-port-11171213#publisher=newsstand",
-      "title": "2 Indians Killed In Iran Attack On Oil Tanker 'Skylight' In Strait Of Hormuz",
-      "description": "The Palau-flagged oil tanker was struck off Oman's Musandam Peninsula in an attack that followed drone strikes on the country's Duqm port.",
-      "url": "https://www.ndtv.com/world-news/us-israel-iran-war-2-indians-killed-in-iran-attack-on-oil-tanker-skylight-in-strait-of-hormuz-near-oman-port-11171213#publisher=newsstand",
-      "source": "NDTV",
-      "logoUrl": "https://drop.ndtv.com/homepage/images/ndtvlogo23march.png",
-      "publishedAt": "2026-03-05T12:09:59.000Z",
-      "tag": "Critical"
+      "id": "CBMiiwFBVV95cUxPVEZWTG9YaThDdTlaYVVjRktEM3NBLUoyMF9YMmtfVUJrMVlMVTl0Y0E2T1M1X3ozYzUyeG5NMV9yM0dqSjRJZXljWkotT2JwLUEtd1RKNXZIZEVyWG43dFlKWVZiYUtvV1NnaklrZHlDV01oS1hGaVVOOGc1RTRDUEZrTlVMUi1hdm1j",
+      "title": "Inflation held steady last month, but that was before the attack on Iran sent energy costs soaring - AP News",
+      "description": "Inflation held steady last month, but that was before the attack on Iran sent energy costs soaring AP News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVEZWTG9YaThDdTlaYVVjRktEM3NBLUoyMF9YMmtfVUJrMVlMVTl0Y0E2T1M1X3ozYzUyeG5NMV9yM0dqSjRJZXljWkotT2JwLUEtd1RKNXZIZEVyWG43dFlKWVZiYUtvV1NnaklrZHlDV01oS1hGaVVOOGc1RTRDUEZrTlVMUi1hdm1j?oc=5",
+      "source": "AP News",
+      "logoUrl": "https://assets.apnews.com/fa/ba/9258a7114f5ba5c7202aaa1bdd66/aplogo.svg",
+      "publishedAt": "2026-03-11T16:00:00.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "https://indianexpress.com/?post_type=article&p=10577089",
+      "title": "US at fault in strike on school in Iran, preliminary inquiry says",
+      "description": "",
+      "url": "https://indianexpress.com/article/world/us-at-fault-in-strike-on-school-in-iran-preliminary-inquiry-says-10577089/",
+      "source": "Indian Express",
+      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
+      "publishedAt": "2026-03-11T15:56:34.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "https://www.hindustantimes.com/world-news/us-news/iran-to-target-us-and-israeli-banks-in-middle-east-evacuation-begins-in-dubai-after-painful-response-warning-101773243050396.html",
+      "title": "Iran to target US and Israeli banks in Middle East? Evacuation begins in Dubai after ‘painful response’ warning",
+      "description": "Iran warns of targeting US-affiliated banks after assaults on its military bank, urging people to stay 1 km away from these institutions.",
+      "url": "https://www.hindustantimes.com/world-news/us-news/iran-to-target-us-and-israeli-banks-in-middle-east-evacuation-begins-in-dubai-after-painful-response-warning-101773243050396.html",
+      "source": "Hindustan Times",
+      "logoUrl": "https://www.hindustantimes.com/res/images/ht-logo.svg",
+      "publishedAt": "2026-03-11T15:55:02.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "https://indianexpress.com/?post_type=article&p=10577074",
+      "title": "Pentagon spent $9 million on crab legs and lobster months before US’ attack on Iran: Report",
+      "description": "",
+      "url": "https://indianexpress.com/article/world/us-news/pentagon-spending-93-billion-luxury-food-technology-iran-venezuela-war-10577074/",
+      "source": "Indian Express",
+      "logoUrl": "https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg",
+      "publishedAt": "2026-03-11T15:45:22.000Z",
+      "tag": "Critical",
+      "paywalled": false
+    },
+    {
+      "id": "https://www.nytimes.com/live/2026/03/11/world/iran-war-news-trump-oil-israel/israel-sends-an-extra-infantry-battalion-to-lebanons-border",
+      "title": "Israel sends an extra infantry battalion to Lebanon’s border.",
+      "description": "",
+      "url": "https://www.nytimes.com/live/2026/03/11/world/iran-war-news-trump-oil-israel/israel-sends-an-extra-infantry-battalion-to-lebanons-border",
+      "source": "The New York Times",
+      "logoUrl": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "publishedAt": "2026-03-11T15:45:02.000Z",
+      "tag": "Update",
+      "paywalled": true
+    },
+    {
+      "id": "https://www.aljazeera.com/?t=1773235917",
+      "title": "Not ‘a litre of oil’ to pass Strait of Hormuz, expect $200 price tag: Iran",
+      "description": "Warning comes as 400 million barrels of oil are being released from global reserves during waterway's closure.",
+      "url": "https://www.aljazeera.com/news/2026/3/11/irans-irgc-says-not-one-litre-of-oil-will-get-through-strait-of-hormuz?traffic_source=rss",
+      "source": "Al Jazeera",
+      "logoUrl": "https://www.aljazeera.com/images/logo_aje.png",
+      "publishedAt": "2026-03-11T15:43:49.000Z",
+      "tag": "Update",
+      "paywalled": false
     }
   ],
-  "updatedAt": "2026-03-05T14:33:24.254Z",
+  "updatedAt": "2026-03-11T18:08:36.577Z",
   "refreshIntervalMs": 300000,
   "feedHealth": [
     {
       "source": "BBC",
       "status": "ok",
-      "articleCount": 31
+      "articleCount": 36
     },
     {
       "source": "The New York Times",
       "status": "ok",
-      "articleCount": 38
+      "articleCount": 36
     },
     {
       "source": "The Guardian",
       "status": "ok",
-      "articleCount": 15
+      "articleCount": 14
     },
     {
       "source": "Al Jazeera",
       "status": "ok",
-      "articleCount": 19
+      "articleCount": 14
     },
     {
       "source": "The Hindu",
       "status": "ok",
-      "articleCount": 55
+      "articleCount": 54
     },
     {
       "source": "Indian Express",
       "status": "ok",
-      "articleCount": 130
+      "articleCount": 121
     },
     {
       "source": "NDTV",
@@ -462,22 +504,22 @@
     {
       "source": "Times of India",
       "status": "ok",
-      "articleCount": 5
+      "articleCount": 3
     },
     {
       "source": "Hindustan Times",
       "status": "ok",
-      "articleCount": 46
+      "articleCount": 39
     },
     {
       "source": "Reuters",
       "status": "ok",
-      "articleCount": 18
+      "articleCount": 21
     },
     {
       "source": "AP News",
       "status": "ok",
-      "articleCount": 10
+      "articleCount": 12
     }
   ],
   "filters": {

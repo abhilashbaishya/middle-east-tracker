@@ -108,7 +108,14 @@ function NewsRow({ article }: { article: NewsArticle }) {
 
       <div className="flex gap-2 font-mono text-[11px] uppercase text-[var(--muted)] sm:text-[12px] lg:flex-col lg:items-end lg:justify-between lg:gap-0 lg:self-stretch lg:text-[14px]">
         <div className="lg:text-right">
-          <span>{article.source}</span>
+          <span className="inline-flex items-center gap-1.5">
+            {article.source}
+            {article.paywalled && (
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2Zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2ZM9 8V6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9Z"/>
+              </svg>
+            )}
+          </span>
           <span className="lg:hidden"> · </span>
           <span className="lg:block">{formatPublishedDate(article.publishedAt)}</span>
         </div>
