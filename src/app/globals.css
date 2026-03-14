@@ -57,6 +57,16 @@ body {
   transform: translateY(0);
 }
 
+/* Dim siblings when a title link is hovered */
+.article-list:has(h2 a:hover) > article.is-visible {
+  opacity: 0.4;
+  transition: opacity 0.2s ease;
+}
+
+.article-list:has(h2 a:hover) > article.is-visible:has(h2 a:hover) {
+  opacity: 1;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .card-enter {
     opacity: 1;
