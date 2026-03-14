@@ -87,7 +87,7 @@ function useScrollReveal() {
 function NewsRow({ article }: { article: NewsArticle }) {
   const ref = useScrollReveal();
   return (
-    <article ref={ref} className="card-enter grid items-start gap-3 pt-10 pb-10 first:pt-0 lg:grid-cols-[1fr_16ch] lg:gap-6">
+    <article ref={ref} className="group card-enter grid items-start gap-3 pt-10 pb-10 first:pt-0 lg:grid-cols-[1fr_16ch] lg:gap-6">
       <div>
         {article.tag && <div className="mb-2 lg:hidden"><TagPill tag={article.tag} /></div>}
         <h2 className="font-display text-[22px] leading-[1.2] tracking-[-0.01em] text-[var(--headline)] sm:text-[26px] lg:text-[32px] lg:leading-[1.16] [text-wrap:balance]">
@@ -95,7 +95,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
             href={article.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer rounded-sm underline decoration-transparent underline-offset-4 transition-[color,text-decoration-color] active:text-[var(--headline-hover)] active:decoration-[var(--headline-hover)] hover:text-[var(--headline-hover)] hover:decoration-[var(--headline-hover)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+            className="cursor-pointer rounded-sm no-underline transition-colors active:text-[var(--headline-hover)] hover:text-[var(--headline-hover)] group-hover:text-[var(--headline-hover)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
           >
             {article.title}
           </a>
@@ -123,32 +123,11 @@ function NewsRow({ article }: { article: NewsArticle }) {
           href={article.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="group hidden rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] lg:inline-flex"
+          className="hidden rounded-sm text-[var(--muted)] transition-colors group-hover:text-[var(--headline-hover)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] lg:inline-flex"
           aria-label="Read more"
         >
-          <svg className="group-hover:hidden" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M16 0.5C24.5604 0.5 31.5 7.43959 31.5 16C31.5 24.5604 24.5604 31.5 16 31.5C7.43959 31.5 0.5 24.5604 0.5 16C0.5 7.43959 7.43959 0.5 16 0.5Z" stroke="#71717a" strokeWidth="1"/>
-            <g clipPath="url(#clip0_default)">
-              <path d="M10.7998 21.2001L20.3998 11.6001" stroke="#F3F4F5" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M12.5996 11.6001H20.3996V19.4001" stroke="#F3F4F5" strokeLinecap="round" strokeLinejoin="round"/>
-            </g>
-            <defs>
-              <clipPath id="clip0_default">
-                <rect width="19.2" height="19.2" fill="white" transform="translate(6 6.80005)"/>
-              </clipPath>
-            </defs>
-          </svg>
-          <svg className="hidden group-hover:block" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <circle cx="16" cy="16" r="16" fill="white"/>
-            <g clipPath="url(#clip0_hover)">
-              <path d="M10.7998 21.2001L20.3998 11.6001" stroke="#040810" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M12.5996 11.6001H20.3996V19.4001" stroke="#040810" strokeLinecap="round" strokeLinejoin="round"/>
-            </g>
-            <defs>
-              <clipPath id="clip0_hover">
-                <rect width="19.2" height="19.2" fill="white" transform="translate(6 6.80005)"/>
-              </clipPath>
-            </defs>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </a>
       </div>
@@ -216,7 +195,7 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
           No matching articles found right now.
         </div>
       ) : (
-        <section className="divide-y divide-[var(--divider)] border-b border-[var(--divider)]">
+        <section className="article-list divide-y divide-[var(--divider)] border-b border-[var(--divider)]">
           {payload.articles.map((article) => (
             <NewsRow key={article.id} article={article} />
           ))}
