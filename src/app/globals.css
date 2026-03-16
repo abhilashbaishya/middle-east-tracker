@@ -57,14 +57,16 @@ body {
   transform: translateY(0);
 }
 
-/* Dim siblings when a title link is hovered */
-.article-list:has(h2 a:hover) > article.is-visible {
-  opacity: 0.4;
-  transition: opacity 0.2s ease;
-}
+/* Dim siblings when a title link is hovered — only on pointer devices */
+@media (hover: hover) {
+  .article-list:has(h2 a:hover) > article.is-visible {
+    opacity: 0.4;
+    transition: opacity 0.2s ease;
+  }
 
-.article-list:has(h2 a:hover) > article.is-visible:has(h2 a:hover) {
-  opacity: 1;
+  .article-list:has(h2 a:hover) > article.is-visible:has(h2 a:hover) {
+    opacity: 1;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

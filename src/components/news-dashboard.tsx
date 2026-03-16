@@ -95,7 +95,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
             href={article.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer rounded-sm no-underline transition-colors active:text-[var(--headline-hover)] hover:text-[var(--headline-hover)] group-hover:text-[var(--headline-hover)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+            className="cursor-pointer rounded-sm no-underline transition-colors active:text-[var(--headline-hover)] [@media(hover:hover)]:hover:text-[var(--headline-hover)] [@media(hover:hover)]:group-hover:text-[var(--headline-hover)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
           >
             {article.title}
           </a>
@@ -106,7 +106,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
         {article.tag && <div className="mt-3 hidden lg:block"><TagPill tag={article.tag} /></div>}
       </div>
 
-      <div className="flex gap-2 font-mono text-[11px] uppercase text-[var(--muted)] sm:text-[12px] lg:flex-col lg:items-end lg:justify-between lg:gap-0 lg:self-stretch lg:text-[14px]">
+      <div className="flex items-center justify-between gap-2 font-mono text-[11px] uppercase text-[var(--muted)] sm:text-[12px] lg:flex-col lg:items-end lg:justify-between lg:gap-0 lg:self-stretch lg:text-[14px]">
         <div className="lg:text-right">
           <span className="inline-flex items-center gap-1.5">
             {article.source}
@@ -126,7 +126,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
           href={article.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden rounded-sm text-[var(--muted)] transition-colors group-hover:text-[var(--headline-hover)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] lg:inline-flex"
+          className="inline-flex rounded-sm text-[var(--muted)] transition-colors [@media(hover:hover)]:group-hover:text-[var(--headline-hover)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
           aria-label={`Read more: ${article.title}`}
         >
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
