@@ -13,5 +13,5 @@ export function clampDescription(value: string): string {
     return value;
   }
 
-  return `${value.slice(0, MAX_DESCRIPTION_LENGTH).trimEnd()}...`;
+  return `${value.slice(0, MAX_DESCRIPTION_LENGTH).trimEnd()}\u2026`;
 }

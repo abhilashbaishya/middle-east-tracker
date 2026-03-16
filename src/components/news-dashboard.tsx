@@ -111,9 +111,12 @@ function NewsRow({ article }: { article: NewsArticle }) {
           <span className="inline-flex items-center gap-1.5">
             {article.source}
             {article.paywalled && (
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2Zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2ZM9 8V6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9Z"/>
-              </svg>
+              <>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2Zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2ZM9 8V6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9Z"/>
+                </svg>
+                <span className="sr-only">(paywalled)</span>
+              </>
             )}
           </span>
           <span className="lg:hidden"> · </span>
@@ -124,7 +127,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
           target="_blank"
           rel="noopener noreferrer"
           className="hidden rounded-sm text-[var(--muted)] transition-colors group-hover:text-[var(--headline-hover)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] lg:inline-flex"
-          aria-label="Read more"
+          aria-label={`Read more: ${article.title}`}
         >
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -169,7 +172,7 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
   }, [payload.refreshIntervalMs, refreshNews]);
 
   return (
-    <div className="mx-auto w-full max-w-7xl px-5 pt-[72px] pb-10 sm:px-8 lg:px-14">
+    <main id="main" className="mx-auto w-full max-w-7xl px-5 pt-[72px] pb-10 sm:px-8 lg:px-14">
       <header className="mb-8 border-b border-[var(--divider)] pb-8">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div>
@@ -187,7 +190,7 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
           </div>
         </div>
 
-        {errorMessage ? <p className="mt-4 text-sm text-[var(--error)]">{errorMessage}</p> : null}
+        {errorMessage ? <p role="alert" className="mt-4 text-sm text-[var(--error)]">{errorMessage}</p> : null}
       </header>
 
       {payload.articles.length === 0 ? (
@@ -195,12 +198,12 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
           No matching articles found right now.
         </div>
       ) : (
-        <section className="article-list divide-y divide-[var(--divider)] border-b border-[var(--divider)]">
+        <section aria-label="News articles" className="article-list divide-y divide-[var(--divider)] border-b border-[var(--divider)]">
           {payload.articles.map((article) => (
             <NewsRow key={article.id} article={article} />
           ))}
         </section>
       )}
-    </div>
+    </main>
   );
 }
