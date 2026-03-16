@@ -59,13 +59,13 @@ describe("clampDescription", () => {
   it("truncates long descriptions with ellipsis", () => {
     const long = "a".repeat(200);
     const result = clampDescription(long);
-    expect(result).toHaveLength(183); // 180 + "..."
-    expect(result).toMatch(/\.\.\.$/);
+    expect(result).toHaveLength(181); // 180 + "…"
+    expect(result).toMatch(/\u2026$/);
   });
 
   it("trims trailing whitespace before ellipsis", () => {
     const withSpace = "a".repeat(178) + "  " + "b".repeat(20);
     const result = clampDescription(withSpace);
-    expect(result).not.toMatch(/\s\.\.\.$/);
+    expect(result).not.toMatch(/\s\u2026$/);
   });
 });
