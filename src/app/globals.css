@@ -14,8 +14,6 @@
   --cta-underline: #3f3f46;
   --error: #df6666;
   --empty-border: #3f3f46;
-  --bg-gradient-start: #1a1a1b;
-  --bg-gradient-end: #131314;
   --accent: #C46849;
 }
 
@@ -36,9 +34,7 @@ body {
   min-height: 100vh;
   margin: 0;
   color: var(--foreground);
-  background:
-    radial-gradient(circle at 50% -10%, var(--bg-gradient-start) 0%, transparent 42%),
-    linear-gradient(180deg, var(--background) 0%, var(--bg-gradient-end) 100%);
+  background: var(--background);
   font-family: var(--font-geist), sans-serif;
 }
 
