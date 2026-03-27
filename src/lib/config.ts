@@ -91,6 +91,18 @@ export const BROAD_US_TERMS = [
   /\bamerican\b/i,
 ] as const;
 
+/**
+ * Mediator/regional country terms — only qualify if a conflict term is also present,
+ * preventing unrelated domestic news from those countries from appearing.
+ */
+export const MEDIATOR_TERMS = [
+  /\bqatar(?:i)?\b/i,
+  /\begypt(?:ian)?\b/i,
+  /\bturkey\b|\bturkish\b|\bturkiye\b/i,
+  /\bsaudi(?: arabia)?\b/i,
+  /\bindia\b|\bindian\b/i,
+] as const;
+
 /** @deprecated Use CONFLICT_TERMS + BROAD_US_TERMS instead */
 export const TRACKING_TERMS = [...CONFLICT_TERMS, ...BROAD_US_TERMS] as const;
 

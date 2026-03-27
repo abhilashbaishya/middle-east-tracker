@@ -3,6 +3,7 @@ import Parser from "rss-parser";
 import {
   BROAD_US_TERMS,
   CONFLICT_TERMS,
+  MEDIATOR_TERMS,
   FEEDS,
   FILTER_KEYWORDS,
   MAX_ARTICLES,
@@ -109,10 +110,12 @@ export function isTracked(title: string, description: string): boolean {
   const text = `${title} ${description}`;
   const hasConflictTerm = CONFLICT_TERMS.some((t) => t.test(text));
   if (hasConflictTerm) return true;
-  const hasUsTerm = BROAD_US_TERMS.some((t) => t.test(text));
-  if (!hasUsTerm) return false;
-  // US term found — only include if a conflict term is also present
-  // (already checked above, so this is purely US domestic → exclude)
+  const hasBroadTerm =
+    BROAD_US_TERMS.some((t) => t.test(text)) ||
+    MEDIATOR_TERMS.some((t) => t.test(text));
+  if (!hasBroadTerm) return false;
+  // Broad/mediator country term found — only include if a conflict term is also present
+  // (already checked above, so this is purely domestic news → exclude)
   return false;
 }
 
