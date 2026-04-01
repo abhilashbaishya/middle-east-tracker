@@ -26,10 +26,7 @@ function formatUpdatedLabel(isoString: string): string {
 
 function formatPublishedDate(isoString: string): string {
   const date = new Date(isoString);
-  if (Number.isNaN(date.getTime())) {
-    return "Unknown date";
-  }
-
+  if (Number.isNaN(date.getTime())) return "Unknown date";
   return new Intl.DateTimeFormat(undefined, {
     month: "long",
     day: "numeric",
@@ -39,10 +36,7 @@ function formatPublishedDate(isoString: string): string {
 
 function formatPublishedTime(isoString: string): string {
   const date = new Date(isoString);
-  if (Number.isNaN(date.getTime())) {
-    return "Unknown time";
-  }
-
+  if (Number.isNaN(date.getTime())) return "Unknown time";
   return new Intl.DateTimeFormat(undefined, {
     hour: "numeric",
     minute: "2-digit",
@@ -108,7 +102,7 @@ function NewsRow({ article }: { article: NewsArticle }) {
 
       <div className="flex items-center justify-between gap-2 font-mono text-[11px] uppercase text-[var(--muted)] sm:text-[12px] lg:flex-col lg:items-end lg:justify-between lg:gap-0 lg:self-stretch lg:text-[14px]">
         <div className="lg:text-right">
-          <span className="inline-flex items-center gap-1.5">
+          <span className="inline-flex items-center gap-1.5 opacity-40">
             {article.source}
             {article.paywalled && (
               <>
@@ -120,7 +114,8 @@ function NewsRow({ article }: { article: NewsArticle }) {
             )}
           </span>
           <span className="lg:hidden"> · </span>
-          <span className="lg:block">{formatPublishedDate(article.publishedAt)}</span>
+          <span className="whitespace-nowrap lg:block">{formatPublishedDate(article.publishedAt)}</span>
+          <span className="whitespace-nowrap lg:block">{formatPublishedTime(article.publishedAt)}</span>
         </div>
         <a
           href={article.url}
