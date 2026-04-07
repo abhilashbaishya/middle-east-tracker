@@ -168,7 +168,7 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
 
   return (
     <main id="main" className="mx-auto w-full max-w-7xl px-5 pt-[72px] pb-10 sm:px-8 lg:px-14">
-      <header className="mb-8 border-b border-[var(--divider)] pb-8">
+      <header className="mb-8 pb-8 dotted-border-b">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div>
             <h1 className="font-display text-[2.25rem] leading-[1.05] tracking-[-0.02em] text-[var(--headline)] sm:text-[3.375rem] lg:text-[4.5rem] [text-wrap:balance]">
@@ -193,7 +193,7 @@ export function NewsDashboard({ initialPayload }: DashboardProps) {
           No matching articles found right now.
         </div>
       ) : (
-        <section aria-label="News articles" className="article-list divide-y divide-[var(--divider)] border-b border-[var(--divider)]">
+        <section aria-label="News articles" className="article-list dotted-border-b">
           {payload.articles.map((article) => (
             <NewsRow key={article.id} article={article} />
           ))}

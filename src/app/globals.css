@@ -6,7 +6,7 @@
   --muted: #8b8b94;
   --muted-light: #a1a1a6;
   --subtle: #a1a1a6;
-  --divider: #27272a;
+  --divider: #3f3f46;
   --headline: #fafafa;
   --headline-hover: #ffffff;
   --description: rgba(250, 250, 250, 0.6);
@@ -20,10 +20,10 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist);
+  --font-sans: var(--font-abc-diatype);
   --font-heading: var(--font-ibm-plex-sans-condensed);
   --font-mono: var(--font-geist-mono);
-  --font-display: var(--font-uncut-sans);
+  --font-display: var(--font-abc-diatype);
 }
 
 * {
@@ -36,6 +36,31 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-geist), sans-serif;
+}
+
+.font-display {
+  font-feature-settings: 'ss05' on;
+}
+
+.dotted-border-b {
+  border-bottom: none;
+  background-image: radial-gradient(circle, var(--divider) 1px, transparent 1px);
+  background-size: 6px 1px;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  padding-bottom: inherit;
+}
+
+.article-list > article {
+  border-top: none;
+  background-image: radial-gradient(circle, var(--divider) 1px, transparent 1px);
+  background-size: 6px 1px;
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+.article-list > article:first-child {
+  background-image: none;
 }
 
 .card-surface {
