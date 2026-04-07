@@ -39,6 +39,23 @@ const uncutSans = localFont({
   display: "swap",
 });
 
+const abcDiatype = localFont({
+  src: [
+    {
+      path: "../../public/fonts/ABCDiatype-Regular-Trial.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/ABCDiatype-Medium-Trial.otf",
+      weight: "500",
+      style: "normal",
+    },
+  ],
+  variable: "--font-abc-diatype",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Middle East Tracker",
   description:
@@ -54,7 +71,7 @@ export default function RootLayout({
   return (
     <html lang="en" style={{ colorScheme: "dark" }}>
       <body
-        className={`${ibmPlexSans.variable} ${ibmPlexSansCondensed.variable} ${geist.variable} ${geistMono.variable} ${uncutSans.variable} antialiased`}
+        className={`${ibmPlexSans.variable} ${ibmPlexSansCondensed.variable} ${geist.variable} ${geistMono.variable} ${uncutSans.variable} ${abcDiatype.variable} antialiased`}
       >
         <a
           href="#main"
